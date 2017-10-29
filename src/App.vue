@@ -1,26 +1,23 @@
 <template>
   <div id="app">
     <udi-toolbar/>
+    <udi-welcome-container/>
   </div>
 </template>
 
 <script>
   import UdiButton from '@/Button'
-  import UdiContainer from '@/Container'
+  import UdiWelcomeContainer from '@/WelcomeContainer'
   import UdiToolbar from '@/Toolbar'
 
   export default {
     name: 'app',
     components: {
       UdiButton,
-      UdiContainer,
+      UdiWelcomeContainer,
       UdiToolbar
     }
   }
 </script>
 
 <style lang="scss" src="./assets/scss/reset.scss"></style>
-
-
-<style lang="scss">
-</style>

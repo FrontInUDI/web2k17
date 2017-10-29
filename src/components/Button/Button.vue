@@ -44,9 +44,10 @@
 
 <style lang="scss">
   @import '../../assets/scss/variables.scss';
+  @import '../../assets/scss/functions.scss';
 
   .udi-button {
-    background-color: rgba(3, 179, 228, 1);
+    background-color: frontinudi-default-color();
     border: 1px solid rgba(255, 255, 255, .36);
     border-radius: 3px;
     box-shadow: $frontinudi-shadow;

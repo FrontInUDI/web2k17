@@ -1,5 +1,6 @@
 <template>
   <h1
+    class="udi-h1"
     v-bind="{ id }">
     {{ text }}
   </h1>
@@ -14,3 +15,11 @@
     }
   }
 </script>
+
+<style lang="scss">
+  @import '../../assets/scss/functions.scss';
+  .udi-h1 {
+    color: frontinudi-default-color();
+  }
+</style>
+
