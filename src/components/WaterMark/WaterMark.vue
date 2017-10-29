@@ -42,19 +42,22 @@
     pointer-events: none;
     opacity: .15;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+
+    &.left {
+      .udi-water-mark-image {
+        justify-content: flex-start;
+      }
+    }
+
+    &.right {
+      .udi-water-mark-image {
+        justify-content: flex-end;
+      }
+    }
 
     .udi-water-mark-image {
       height: 80%;
     }
-
-    // &.left {
-    //   left: 0;
-    // }
-
-    // &.right {
-    //   right: 0;
-    // }
   }
 </style>
