@@ -6,6 +6,9 @@
       <slot name="header"/>
     </div>
     <slot/>
+    <div class="udi-container-footer">
+      <slot name="footer"/>
+    </div>
   </div>
 </template>
 
@@ -41,7 +44,8 @@
     }
   }
 
-  .udi-container-header {
+  .udi-container-header,
+  .udi-container-footer {
     position: relative;
   }
 </style>

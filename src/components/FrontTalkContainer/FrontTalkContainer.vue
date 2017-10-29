@@ -1,19 +1,21 @@
 <template>
   <udi-container
     class="udi-front-talk-container">
-    <div slot="header">
+    <div
+      slot="header">
       <udi-h1
         :id="$udiData.frontTalkContainer.h1.id"
         :text="$udiData.frontTalkContainer.h1.text"/>
       <udi-p
         :text="$udiData.frontTalkContainer.p.text"/>
-      <udi-water-mark
+      <udi-watermark
         :src="micSVG"
         imgHeight="180%"
-        alt="Watermark flask"/>
+        alt="Watermark mic"/>
     </div>
 
-    <div class="udi-front-talk-body">
+    <div
+      class="udi-front-talk-body">
       <udi-talk-card
         v-for="(talk, index) in $udiData.talkCards"
         :key="index"
@@ -28,10 +30,9 @@
 <script>
   import UdiContainer from '@/Container'
   import UdiH1 from '@/H1'
-  import UdiH2 from '@/H2'
   import UdiP from '@/P'
   import UdiTalkCard from '@/TalkCard'
-  import UdiWaterMark from '@/WaterMark'
+  import UdiWatermark from '@/Watermark'
   import micSVG from 'ASSETS/img/mic.svg'
 
   export default {
@@ -44,15 +45,18 @@
     components: {
       UdiContainer,
       UdiH1,
-      UdiH2,
       UdiP,
       UdiTalkCard,
-      UdiWaterMark
+      UdiWatermark
     }
   }
 </script>
 
 <style lang="scss">
+  .udi-front-talk-container {
+    height: auto;
+  }
+
   .udi-front-talk-body {
     display: grid;
     grid-template: auto / 1fr 1fr 1fr;

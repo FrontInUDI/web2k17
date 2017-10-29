@@ -1,1 +1,1 @@
-export { default } from './WaterMark.vue'
+export { default } from './Watermark.vue'

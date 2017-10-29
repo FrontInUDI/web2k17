@@ -4,11 +4,13 @@
     <udi-welcome-container/>
     <udi-learn-share-container/>
     <udi-front-talk-container/>
+    <udi-contact-container/>
   </div>
 </template>
 
 <script>
   import UdiButton from '@/Button'
+  import UdiContactContainer from '@/ContactContainer'
   import UdiWelcomeContainer from '@/WelcomeContainer'
   import UdiFrontTalkContainer from '@/FrontTalkContainer'
   import UdiLearnShareContainer from '@/LearnShareContainer'
@@ -23,6 +25,7 @@
     },
     components: {
       UdiButton,
+      UdiContactContainer,
       UdiFrontTalkContainer,
       UdiLearnShareContainer,
       UdiWelcomeContainer,

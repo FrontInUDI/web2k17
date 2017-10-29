@@ -1,9 +1,9 @@
 export default {
   contactLinks: [
-    { link: true, href: '#facebook', small: false, icon: '' },
-    { link: true, href: '#twitter', small: false, icon: '' },
-    { link: true, href: '#instagram', small: false, icon: '' },
-    { link: true, href: '#slack', small: false, icon: '' }
+    { link: true, href: '#facebook', alt: '#facebook', small: false, icon: '../assets/img/facebook.svg' },
+    { link: true, href: '#twitter', alt: '#twitter', small: false, icon: '../assets/img/twitter.svg' },
+    { link: true, href: '#instagram', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
+    { link: true, href: '#slack', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
   ],
   toolbarLinks: [
     { text: 'Objetivo', link: true, href: '#objetivo', small: false },

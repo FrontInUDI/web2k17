@@ -1,6 +1,5 @@
 <template>
   <div
-    class="udi-water-mark"
     :class="classes">
     <img
       class="udi-water-mark-image"
@@ -14,7 +13,7 @@
 
 <script>
   export default {
-    name: 'UDIWaterMark',
+    name: 'UDIWatermark',
     props: {
       src: String,
       alt: [String, Number],
@@ -25,8 +24,9 @@
     computed: {
       classes () {
         return {
-          left: this.left && !this.right,
-          right: this.right && !this.left
+          'udi-water-mark': true,
+          left: this.left,
+          right: !this.left
         }
       }
     }
@@ -47,19 +47,11 @@
     align-items: center;
 
     &.left {
-      .udi-water-mark-image {
-        justify-content: flex-start;
-      }
+      justify-content: flex-start;
     }
 
     &.right {
-      .udi-water-mark-image {
-        justify-content: flex-end;
-      }
-    }
-
-    .udi-water-mark-image {
-      height: 80%;
+      justify-content: flex-end;
     }
   }
 </style>

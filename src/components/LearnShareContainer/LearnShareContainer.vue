@@ -10,7 +10,7 @@
       </p>
     </div>
 
-    <udi-water-mark
+    <udi-watermark
       :src="flaskSVG"
       alt="Watermark flask"/>
   </udi-container>
@@ -21,7 +21,7 @@
   import UdiH1 from '@/H1'
   import UdiH2 from '@/H2'
   import UdiP from '@/P'
-  import UdiWaterMark from '@/WaterMark'
+  import UdiWatermark from '@/Watermark'
   import flaskSVG from 'ASSETS/img/flask.svg'
 
   export default {
@@ -36,7 +36,7 @@
       UdiH1,
       UdiH2,
       UdiP,
-      UdiWaterMark
+      UdiWatermark
     }
   }
 </script>
