@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="udi-h1"
+    class="udi-h2"
     v-bind="{ id }">
     {{ text }}
   </h1>
@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: 'UDIH1',
+    name: 'UDIH2',
     props: {
       id: [String, Number],
       text: [String, Number]
@@ -18,11 +18,9 @@
 
 <style lang="scss">
   @import '../../assets/scss/functions.scss';
-
-  .udi-h1 {
+  .udi-h2 {
     color: frontinudi-default-color();
-    font-size: 4em;
-    margin-bottom: 0.2em;
+    font-size: 3em;
   }
 </style>
 

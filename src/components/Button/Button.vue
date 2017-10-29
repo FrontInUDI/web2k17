@@ -2,6 +2,7 @@
   <component
     :class="classes"
     :is="component"
+    @click="$emit('click', $event)"
     v-bind="{
       href,
       target
@@ -52,6 +53,7 @@
     border-radius: 3px;
     box-shadow: $frontinudi-shadow;
     color: rgba(255, 255, 255, 1);
+    cursor: pointer;
     padding: 8px;
     outline: none;
 
@@ -66,6 +68,7 @@
 
   .udi-link {
     color: rgba(3, 179, 228, 1);
+    cursor: pointer;
     font-weight: 200;
     text-decoration: none;
   }

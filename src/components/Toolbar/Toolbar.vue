@@ -1,7 +1,9 @@
 <template>
-  <div class="udi-toolbar">
+  <div
+    class="udi-toolbar">
     <UdiLogo/>
-    <div class="udi-toolbar-links">
+    <div
+      class="udi-toolbar-links">
       <UdiButton
         v-for="(link, index) in toolbarLinks"
         :key="index"
@@ -13,12 +15,45 @@
         {{ link.text }}
       </UdiButton>
     </div>
+
+    <div class="udi-toolbar-links-mobile">
+      <udi-button
+        class="udi"
+        link
+        @click.native="$refs.sidenav.open()">
+        M
+      </udi-button>
+    </div>
+
+    <udi-sidenav
+      ref="sidenav">
+      <udi-button
+        slot="header"
+        link
+        @click="$refs.sidenav.close()">
+        x
+      </udi-button>
+
+      <div
+        v-for="(link, index) in toolbarLinks"
+        :key="index">
+        <UdiButton
+          v-bind="{
+            link: link.link,
+            href: link.hasOwnProperty('href') ? link.href : '',
+            small: link.small
+          }">
+          {{ link.text }}
+        </UdiButton>
+      </div>
+    </udi-sidenav>
   </div>
 </template>
 
 <script>
   import UdiButton from '@/Button'
   import UdiLogo from '@/Logo'
+  import UdiSidenav from '@/Sidenav'
 
   export default {
     name: 'UDIToolbar',
@@ -35,7 +70,8 @@
     },
     components: {
       UdiButton,
-      UdiLogo
+      UdiLogo,
+      UdiSidenav
     }
   }
 </script>
@@ -48,10 +84,27 @@
     padding: 16px 24px;
   }
 
+  .udi-toolbar-links-mobile {
+    display: none;
+  }
+
   .udi-toolbar-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media screen and (max-width: 690px) {
+    .udi-toolbar-links {
+      display: none;
+    }
+
+    .udi-toolbar-links-mobile {
+      display: block;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
 </style>
 
