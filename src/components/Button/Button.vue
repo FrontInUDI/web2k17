@@ -26,12 +26,15 @@
         return {
           small: this.small,
           large: this.large,
-          'udi-button': this.component === 'button',
-          'udi-link': this.component === 'link'
+          'udi-button': !this.isLink,
+          'udi-link': this.isLink
         }
       },
-      component () {
+      isLink () {
         return this.link
+      },
+      component () {
+        return this.isLink
           ? 'a'
           : 'button'
       }
@@ -57,5 +60,11 @@
     &.large {
       padding: 10px 16px;
     }
+  }
+
+  .udi-link {
+    color: rgba(3, 179, 228, 1);
+    font-weight: 200;
+    text-decoration: none;
   }
 </style>
