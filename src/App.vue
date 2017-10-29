@@ -21,13 +21,7 @@
     name: 'app',
     data () {
       return {
-        talkCards: [
-          {
-            title: 'Nome da Talk',
-            text: 'React: o framework onipresente - Hipsters',
-            author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-          }
-        ]
+        talkCards: this.$udiData.talkCards
       }
     },
     components: {

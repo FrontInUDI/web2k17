@@ -4,12 +4,10 @@
     headlight>
     <div slot="header">
       <udi-h1
-        id="welcome"
-        text="FrontInUDI 2017"
-        />
+        :id="$udiData.welcomeContainer.id"
+        :text="$udiData.welcomeContainer.h1.text"/>
       <udi-h2
-        text="Chegamos na melhor cidade mineira"
-        />
+        :text="$udiData.welcomeContainer.h2.text"/>
     </div>
   </udi-container>
 </template>
