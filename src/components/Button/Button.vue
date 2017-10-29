@@ -52,6 +52,7 @@
     box-shadow: $frontinudi-shadow;
     color: rgba(255, 255, 255, 1);
     padding: 8px;
+    outline: none;
 
     &.small {
       padding: 5px 16px;

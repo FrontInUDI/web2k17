@@ -25,10 +25,10 @@
     data () {
       return {
         toolbarLinks: [
-          { text: 'Objetivo', link: true, href: '', small: false },
-          { text: 'Quem somos', link: true, href: '', small: false },
-          { text: 'Front-Talk', link: true, href: '', small: false },
-          { text: 'Contato', link: true, href: '', small: false },
+          { text: 'Objetivo', link: true, href: '#objetivo', small: false },
+          { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
+          { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
+          { text: 'Contato', link: true, href: '#contato', small: false },
           { text: 'Inscreva-se', link: false, small: true }
         ]
       }
