@@ -34,4 +34,48 @@
   }
 </script>
 
+<style lang="scss">
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-extralight-webfont.woff2') format('woff2');
+      font-weight: 100;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-thin-webfont.woff2') format('woff2');
+      font-weight: 200;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-medium-webfont.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-regular-webfont.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-semibold-webfont.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'montserrat';
+      src: url('./assets/font/montserrat-bold-webfont.woff2') format('woff2');
+      font-weight: 800;
+      font-style: normal;
+  }
+</style>
+
 <style lang="scss" src="./assets/scss/main.scss"></style>

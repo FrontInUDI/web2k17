@@ -82,11 +82,14 @@
   @import '../../assets/scss/functions.scss';
 
   .udi-contact-container {
-    height: auto;
     background-image: frontinudi-default-gradient();
 
     .udi-h2 {
       width: 60%;
+    }
+
+    &.udi-container {
+      height: auto;
     }
 
     .udi-link,
