@@ -18,9 +18,16 @@
 
 <style lang="scss">
   @import '../../assets/scss/functions.scss';
+
   .udi-h2 {
     color: frontinudi-default-color();
     font-size: 3em;
+  }
+
+  @media screen and (max-width: 500px) {
+    .udi-h2 {
+      font-size: 1.5em;
+    }
   }
 </style>
 

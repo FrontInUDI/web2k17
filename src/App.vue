@@ -2,6 +2,7 @@
   <div id="app">
     <udi-toolbar/>
     <udi-welcome-container/>
+    <udi-learn-share-container/>
     <udi-talk-card
       v-for="(talk, index) in talkCards"
       :key="index"
@@ -14,6 +15,7 @@
 <script>
   import UdiButton from '@/Button'
   import UdiWelcomeContainer from '@/WelcomeContainer'
+  import UdiLearnShareContainer from '@/LearnShareContainer'
   import UdiTalkCard from '@/TalkCard'
   import UdiToolbar from '@/Toolbar'
 
@@ -26,6 +28,7 @@
     },
     components: {
       UdiButton,
+      UdiLearnShareContainer,
       UdiWelcomeContainer,
       UdiTalkCard,
       UdiToolbar

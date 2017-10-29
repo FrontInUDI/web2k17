@@ -8,6 +8,13 @@
   @return map-get($frontinudi-default-colors, $key);
 }
 
+@function frontinudi-default-gradient() {
+  $primary: frontinudi-default-color('primary');
+  $secondary: frontinudi-default-color('secondary');
+
+  @return linear-gradient(120deg, $primary 0%, $secondary 100%)
+}
+
 // The function below is responsible to create a set of colors
 // That rely on the the color palette created at variables
 // file. It returns a set of in between true variables

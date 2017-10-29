@@ -8,6 +8,10 @@
         :text="$udiData.welcomeContainer.h1.text"/>
       <udi-h2
         :text="$udiData.welcomeContainer.h2.text"/>
+      <img
+        width="20px"
+        src="../../assets/img/rock.svg"
+        alt="FrontInUDI rocks!" />
     </div>
   </udi-container>
 </template>
@@ -28,19 +32,21 @@
 </script>
 
 <style lang="scss">
+  @import '../../assets/scss/functions.scss';
+
   .udi-welcome-container {
     align-items: center;
-    background-image: linear-gradient(120deg, #03b3e4 0%, #02ccba 100%);
+    background-image: frontinudi-default-gradient();
     display: flex;
     justify-content: center;
 
     .udi-h1,
     .udi-h2 {
-      color: rgba(255, 255, 255, 1);
+      color: frontinudi-default-color('background');
     }
 
     .udi-h1 {
-      font-weight: 800;
+      font-weight: 600;
     }
 
     .udi-h2 {
