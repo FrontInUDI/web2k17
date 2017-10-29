@@ -1,6 +1,5 @@
 <template>
   <component
-    class="udi-button"
     :class="classes"
     :is="component"
     v-bind="{

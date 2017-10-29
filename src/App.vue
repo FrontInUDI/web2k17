@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <udi-button
-      small>
-      Inscreva-se
-    </udi-button>
+    <udi-toolbar/>
   </div>
 </template>
 
