@@ -3,20 +3,15 @@
     <udi-toolbar/>
     <udi-welcome-container/>
     <udi-learn-share-container/>
-    <udi-talk-card
-      v-for="(talk, index) in talkCards"
-      :key="index"
-      :title="talk.title"
-      :text="talk.text"
-      :author="talk.author"/>
+    <udi-front-talk-container/>
   </div>
 </template>
 
 <script>
   import UdiButton from '@/Button'
   import UdiWelcomeContainer from '@/WelcomeContainer'
+  import UdiFrontTalkContainer from '@/FrontTalkContainer'
   import UdiLearnShareContainer from '@/LearnShareContainer'
-  import UdiTalkCard from '@/TalkCard'
   import UdiToolbar from '@/Toolbar'
 
   export default {
@@ -28,9 +23,9 @@
     },
     components: {
       UdiButton,
+      UdiFrontTalkContainer,
       UdiLearnShareContainer,
       UdiWelcomeContainer,
-      UdiTalkCard,
       UdiToolbar
     }
   }

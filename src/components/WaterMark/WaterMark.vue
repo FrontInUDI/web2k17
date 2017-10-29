@@ -4,9 +4,10 @@
     :class="classes">
     <img
       class="udi-water-mark-image"
-      src="../../assets/img/flask.svg"
+      :style="{ height: imgHeight || '80%' }"
       v-bind="{
-        alt
+        alt,
+        src
       }">
   </div>
 </template>
@@ -18,7 +19,8 @@
       src: String,
       alt: [String, Number],
       right: Boolean,
-      left: Boolean
+      left: Boolean,
+      imgHeight: String
     },
     computed: {
       classes () {

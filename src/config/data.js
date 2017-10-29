@@ -15,21 +15,37 @@ export default {
   talkCards: [
     {
       title: 'Nome da Talk',
+      color: '#03b3e4',
       text: 'React: o framework onipresente - Hipsters',
       author: { name: 'Fernando Garcia', contact: 'https://google.com' }
     },
     {
       title: 'Nome da Talk',
+      color: '#02cabe',
       text: 'React: o framework onipresente - Hipsters',
       author: { name: 'Fernando Garcia', contact: 'https://google.com' }
     },
     {
       title: 'Nome da Talk',
+      color: '#a660df',
       text: 'React: o framework onipresente - Hipsters',
       author: { name: 'Fernando Garcia', contact: 'https://google.com' }
     },
     {
       title: 'Nome da Talk',
+      color: '#a6a6a6',
+      text: 'React: o framework onipresente - Hipsters',
+      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+    },
+    {
+      title: 'Nome da Talk',
+      color: '#fcc129',
+      text: 'React: o framework onipresente - Hipsters',
+      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+    },
+    {
+      title: 'Nome da Talk',
+      color: '#ed3e7b',
       text: 'React: o framework onipresente - Hipsters',
       author: { name: 'Fernando Garcia', contact: 'https://google.com' }
     }

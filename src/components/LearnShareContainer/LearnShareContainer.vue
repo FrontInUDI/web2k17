@@ -5,14 +5,13 @@
       <udi-h1
         :id="$udiData.learnShareContainer.h1.id"
         :text="$udiData.learnShareContainer.h1.text"/>
-      <p
-        class="udi-p"
-        v-text="$udiData.learnShareContainer.p.text">
+      <udi-p
+        :text="$udiData.learnShareContainer.p.text"/>
       </p>
     </div>
 
     <udi-water-mark
-      src="../../assets/img/flask.svg"
+      :src="flaskSVG"
       alt="Watermark flask"/>
   </udi-container>
 </template>
@@ -21,14 +20,22 @@
   import UdiContainer from '@/Container'
   import UdiH1 from '@/H1'
   import UdiH2 from '@/H2'
+  import UdiP from '@/P'
   import UdiWaterMark from '@/WaterMark'
+  import flaskSVG from 'ASSETS/img/flask.svg'
 
   export default {
     name: 'UdiLearnShareContainer',
+    data () {
+      return {
+        flaskSVG
+      }
+    },
     components: {
       UdiContainer,
       UdiH1,
       UdiH2,
+      UdiP,
       UdiWaterMark
     }
   }
@@ -55,12 +62,6 @@
       text-align: left;
       width: 50%;
       min-width: 220px;
-    }
-
-    .udi-p {
-      font-size: 1.2em;
-      font-weight: 200;
-      text-align: justify;
     }
   }
 </style>

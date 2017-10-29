@@ -36,9 +36,12 @@
       padding: 10vh 0vw;
 
       .udi-container-header {
-        // padding: 10vh 25vw;
         text-align: center;
       }
     }
+  }
+
+  .udi-container-header {
+    position: relative;
   }
 </style>
