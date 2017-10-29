@@ -12,6 +12,7 @@
 
     <udi-watermark
       :src="flaskSVG"
+      left
       alt="Watermark flask"/>
   </udi-container>
 </template>

@@ -10,6 +10,7 @@
         :text="$udiData.frontTalkContainer.p.text"/>
       <udi-watermark
         :src="micSVG"
+        left
         imgHeight="180%"
         alt="Watermark mic"/>
     </div>
