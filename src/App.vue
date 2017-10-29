@@ -33,4 +33,4 @@
   }
 </script>
 
-<style lang="scss" src="./assets/scss/reset.scss"></style>
+<style lang="scss" src="./assets/scss/main.scss"></style>
