@@ -1,0 +1,37 @@
+@import './variables';
+
+// Based on the color palette set in variables SCSS file
+// I'm creating a function able to map that palette
+// array and creating a set of true variables
+@function frontinudi-default-color($key: 'primary') {
+  // Get the named color
+  @return map-get($frontinudi-default-colors, $key);
+}
+
+// The function below is responsible to create a set of colors
+// That rely on the the color palette created at variables
+// file. It returns a set of in between true variables
+@function frontinudi-color-level($color-name: 'primary', $level: 0, $interval: $color-interval) {
+  $color: frontinudi-default-color($color-name);
+  $color-base: if($level < 0, black, white);
+
+  @return mix($color-base, $color, $level * $interval);
+}
+
+// This function creates for each color on the color palette
+// two colors that vary on two types of percent opacity
+@function frontinudi-color-alpha($name: 'primary', $opacity: 0) {
+  $color: frontinudi-default-colors($name);
+
+  // Get the named opacity level, if it exists
+  @if map-key-exists($frontinudi-opacity, $opacity) {
+    $opacity: map-get($frontinudi-opacity, $opacity);
+  }
+
+  // Use rgba() to manipulate the color's alpha level
+  @return rgba($color: $opacity);
+}
+
+@function frontinudi-foreground-color($bgcolor, $threshold: .65) {
+  @return if(lightness($bgcolor) >= $threshold, $color-dark, $color-light);
+}

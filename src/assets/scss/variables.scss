@@ -1,0 +1,22 @@
+// Global variables
+$color-interval: 10% !global;
+
+// Fonts
+$font-stack: Helvetica, sans-serif;
+
+// Shadow
+$frontinudi-shadow: 7px 6px 10px -5px rgba(0, 0, 0, 0.26);
+
+// Color palette
+$frontinudi-default-colors: (
+  'primary': #FFFFFF,
+  'accent': #494949,
+  'secondary': #BFBFBF,
+  'background': #000000
+);
+
+// Opacity array
+$frontinudi-opacity: (
+  'light': 0.8, // opacity used with lighter colors
+  'dark': 0.4   // opacity used with darker colors
+);
