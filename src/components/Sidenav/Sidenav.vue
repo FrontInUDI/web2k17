@@ -50,12 +50,18 @@
     methods: {
       close () {
         this.opened = false
+        this.toggleBodyScroll(this.opened)
       },
       open () {
         this.opened = true
+        this.toggleBodyScroll(this.opened)
       },
       toggle () {
         this.opened = !this.opened
+        this.toggleBodyScroll(this.opened)
+      },
+      toggleBodyScroll (bool) {
+        document.querySelector('body').style.overflowY = bool ? 'hidden' : 'scroll'
       }
     }
   }
