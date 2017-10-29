@@ -63,9 +63,9 @@ export default {
     span: { text: 'Acompanhe o FrontInUDI:' }
   },
   registerContainer: {
-    input: { text: 'Informe seu email e fique atualizado' }
+    input: { text: 'Informe seu email e fique atualizado' },
     button: { text: 'Cadastrar email' }
-  }
+  },
   footerContainer: {
     p: { text: 'com amor para a comunidade', icon: '' }
   }
