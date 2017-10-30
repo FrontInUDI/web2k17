@@ -1,9 +1,9 @@
 export default {
   contactLinks: [
-    { link: true, href: '#facebook', alt: '#facebook', small: false, icon: '../assets/img/facebook.svg' },
-    { link: true, href: '#twitter', alt: '#twitter', small: false, icon: '../assets/img/twitter.svg' },
-    { link: true, href: '#instagram', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
-    { link: true, href: '#slack', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
+    { link: true, href: 'www.facebook.com/frontinudi', alt: '#facebook', small: false, icon: '../assets/img/facebook.svg' },
+    { link: true, href: 'www.twitter.com/frontinudi', alt: '#twitter', small: false, icon: '../assets/img/twitter.svg' },
+    { link: true, href: 'www.instagram.com/frontinudi', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
+    { link: true, href: 'frontinudi.slack.com', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
   ],
   toolbarLinks: [
     { text: 'Objetivo', link: true, href: '#objetivo', small: false },
@@ -51,10 +51,10 @@ export default {
     }
   ],
   organization: [
-    { name: 'Fernando Garcia', profession: 'UX/UI Design e frontend', picture: '' },
-    { name: 'Fernando Garcia', profession: 'UX/UI Design e frontend', picture: '' },
-    { name: 'Fernando Garcia', profession: 'UX/UI Design e frontend', picture: '' },
-    { name: 'Fernando Garcia', profession: 'UX/UI Design e frontend', picture: '' }
+    { name: 'Eduardo Gonçalves', profession: 'Front-End Engineer na Zup', picture: 'static/img/eduardo.jpg' },
+    { name: 'Fernando Garcia', profession: 'UX/UI Design e Front-End Developer na Martins', picture: 'static/img/fernando.jpg' },
+    { name: 'Lucas Menezes', profession: 'Test Automation na Zup', picture: 'static/img/lucas.jpg' },
+    { name: 'Pablo Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' }
   ],
   welcomeContainer: {
     h1: { id: 'welcome', text: 'FrontInUDI 2017' },

@@ -3,6 +3,7 @@
     <udi-toolbar/>
     <udi-welcome-container/>
     <udi-learn-share-container/>
+    <udi-who-we-are/>
     <udi-front-talk-container/>
     <udi-contact-container/>
   </div>
@@ -15,6 +16,7 @@
   import UdiFrontTalkContainer from '@/FrontTalkContainer'
   import UdiLearnShareContainer from '@/LearnShareContainer'
   import UdiToolbar from '@/Toolbar'
+  import UdiWhoWeAre from '@/WhoWeAre'
 
   export default {
     name: 'app',
@@ -29,7 +31,8 @@
       UdiFrontTalkContainer,
       UdiLearnShareContainer,
       UdiWelcomeContainer,
-      UdiToolbar
+      UdiToolbar,
+      UdiWhoWeAre
     }
   }
 </script>
