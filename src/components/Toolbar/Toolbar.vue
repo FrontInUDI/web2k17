@@ -21,7 +21,9 @@
         class="udi"
         link
         @click.native="$refs.sidenav.open()">
-        M
+        <img
+          :src="menuSVG"
+          alt="App menu"/>
       </udi-button>
     </div>
 
@@ -31,7 +33,9 @@
         slot="header"
         link
         @click="$refs.sidenav.close()">
-        x
+        <img
+          :src="closeSVG"
+          alt="Close menu"/>
       </udi-button>
 
       <div
@@ -54,12 +58,16 @@
   import UdiButton from '@/Button'
   import UdiLogo from '@/Logo'
   import UdiSidenav from '@/Sidenav'
+  import closeSVG from '../../assets/img/close.svg'
+  import menuSVG from '../../assets/img/menu.svg'
 
   export default {
     name: 'UDIToolbar',
     data () {
       return {
-        toolbarLinks: this.$udiData.toolbarLinks
+        toolbarLinks: this.$udiData.toolbarLinks,
+        closeSVG,
+        menuSVG
       }
     },
     components: {
@@ -76,6 +84,13 @@
     grid-template: auto / 2fr 4fr;
     grid-gap: 16px;
     padding: 16px 24px;
+
+    .udi-link {
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
   }
 
   .udi-toolbar-links-mobile {

@@ -11,7 +11,7 @@
       <udi-watermark
         :src="micSVG"
         left
-        imgHeight="180%"
+        imgHeight="120%"
         alt="Watermark mic"/>
     </div>
 

@@ -17,16 +17,19 @@
     <udi-p
       :text="$udiData.contactContainer.span.text"/>
 
-    <udi-button
-      v-for="(contact, index) in $udiData.contactLinks"
-      :key="index"
-      :small="contact.small"
-      :href="contact.href"
-      :link="contact.link">
-      <img
-        :src="icons[index]"
-        :alt="contact.alt">
-    </udi-button>
+    <div
+      class="udi-contact-social">
+      <udi-button
+        v-for="(contact, index) in $udiData.contactLinks"
+        :key="index"
+        :small="contact.small"
+        :href="contact.href"
+        :link="contact.link">
+        <img
+          :src="icons[index]"
+          :alt="contact.alt">
+      </udi-button>
+    </div>
     <udi-watermark
       :src="chatSVG"
       right
@@ -79,11 +82,14 @@
   @import '../../assets/scss/functions.scss';
 
   .udi-contact-container {
-    height: auto;
     background-image: frontinudi-default-gradient();
 
     .udi-h2 {
       width: 60%;
+    }
+
+    &.udi-container {
+      height: auto;
     }
 
     .udi-link,
@@ -95,7 +101,7 @@
 
     .udi-h2,
     .udi-h3 {
-      margin-top: 2vh;
+      margin-top: 5vh;
     }
 
     .udi-p {
@@ -106,20 +112,15 @@
     .udi-p {
       margin-bottom: 1vh;
     }
+  }
 
-    .udi-link:not(:first-child) {
+  .udi-contact-social {
+    .udi-link {
       img {
         width: 50px;
-        margin: 1vw 2vw;
+        margin: 1vw 3vw 1vw 0;
       }
     }
-
-    // .udi-link {
-    //   img {
-    //     width: 50px;
-    //     margin: 1vw 2vw;
-    //   }
-    // }
   }
 
 </style>

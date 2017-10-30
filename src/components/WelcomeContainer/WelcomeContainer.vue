@@ -2,7 +2,9 @@
   <udi-container
     class="udi-welcome-container"
     headlight>
-    <div slot="header">
+    <div
+      class="udi-welcome-container-content"
+      slot="header">
       <udi-h1
         :id="$udiData.welcomeContainer.id"
         :text="$udiData.welcomeContainer.h1.text"/>
@@ -51,6 +53,28 @@
 
     .udi-h2 {
       font-weight: 200;
+    }
+  }
+
+  .udi-welcome-container-content {
+    padding: 0 15vw;
+  }
+
+  @media screen and (max-width: 750px) {
+    .udi-welcome-container-content {
+      padding: 0 10vw;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .udi-welcome-container-content {
+      padding: 0 5vw;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .udi-welcome-container-content {
+      padding: 0;
     }
   }
 </style>
