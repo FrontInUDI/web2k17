@@ -11,12 +11,26 @@
         <p class="author--profession">{{author.profession}}</p>
       </div>
     </div>
+    <udi-watermark
+      :src="googlesSVG"
+      right
+      alt="Googles"/>
   </div>
 </template>
 
 <script>
-  export default {
+import googlesSVG from 'ASSETS/img/googles.svg'
+import UdiWatermark from '@/Watermark'
+export default {
+  data () {
+    return {
+      googlesSVG
+    }
+  },
+  components: {
+    UdiWatermark
   }
+}
 </script>
 
 

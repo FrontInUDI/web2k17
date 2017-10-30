@@ -24,7 +24,8 @@
         :key="index"
         :small="contact.small"
         :href="contact.href"
-        :link="contact.link">
+        :link="contact.link"
+        target="_blank">
         <img
           :src="icons[index]"
           :alt="contact.alt">

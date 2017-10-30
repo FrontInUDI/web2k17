@@ -1,9 +1,9 @@
 export default {
   contactLinks: [
-    { link: true, href: 'www.facebook.com/frontinudi', alt: '#facebook', small: false, icon: '../assets/img/facebook.svg' },
-    { link: true, href: 'www.twitter.com/frontinudi', alt: '#twitter', small: false, icon: '../assets/img/twitter.svg' },
-    { link: true, href: 'www.instagram.com/frontinudi', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
-    { link: true, href: 'frontinudi.slack.com', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
+    { link: true, href: 'http://www.facebook.com/frontinudi', alt: '#facebook', small: false, icon: '../assets/img/facebook.svg' },
+    { link: true, href: 'http://www.twitter.com/frontinudi', alt: '#twitter', small: false, icon: '../assets/img/twitter.svg' },
+    { link: true, href: 'http://www.instagram.com/frontinudi', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
+    { link: true, href: 'http://frontinudi.slack.com', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
   ],
   toolbarLinks: [
     { text: 'Objetivo', link: true, href: '#objetivo', small: false },
