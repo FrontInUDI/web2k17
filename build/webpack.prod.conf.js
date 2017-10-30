@@ -12,6 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
+const ImageminPlugin = require('imagemin-webpack-plugin').default
 const loadMinified = require('./load-minified')
 
 const env = process.env.NODE_ENV === 'testing'
@@ -94,6 +95,60 @@ const webpackConfig = merge(baseWebpackConfig, {
       name: 'manifest',
       chunks: ['vendor']
     }),
+    new ImageminPlugin({
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      maxConcurrency: 5,
+      optipng: 5,
+      gifsicle: 5,
+      jpegtran: {
+        progressive: true
+      },
+      svgo: {
+        cleanupAttrs: true,
+        removeDoctype: true,
+        removeXMLProcInst: true,
+        removeComments: true,
+        removeMetadata: true,
+        removeTitle: true,
+        removeDesc: true,
+        removeUselessDefs: true,
+        removeXMLNS: true,
+        removeEditorsNSData: true,
+        removeEmptyAttrs: true,
+        removeHiddenElems: true,
+        removeEmptyText: true,
+        removeEmptyContainers: true,
+        removeViewBox: true,
+        cleanupEnableBackground: true,
+        minifyStyles: true,
+        convertStyleToAttrs: true,
+        convertColors: true,
+        convertPathData: true,
+        convertTransform: true,
+        removeUnknownsAndDefaults: true,
+        removeNonInheritableGroupAttrs: true,
+        removeUselessStrokeAndFill: true,
+        removeUnusedNS: true,
+        cleanupIDs: true,
+        cleanupNumericValues: true,
+        cleanupListOfValues: true,
+        moveElemsAttrsToGroup: true,
+        moveGroupAttrsToElems: true,
+        collapseGroups: true,
+        removeRasterImages: true,
+        mergePaths: true,
+        convertShapeToPath: true,
+        sortAttrs: true,
+        transformsWithOnePath: true,
+        removeDimensions: true,
+        removeAttrs: true,
+        removeElementsByAttr: true,
+        addClassesToSVGElement: true,
+        addAttributesToSVGElement: true,
+        removeStyleElement: true,
+        removeScriptElement: true
+      }
+    }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {
@@ -106,7 +161,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     new SWPrecacheWebpackPlugin({
       cacheId: 'my-vue-app',
       filename: 'service-worker.js',
-      staticFileGlobs: ['dist/**/*.{js,html,css}'],
+      staticFileGlobs: ['dist/**/*.{js,html,css,woff2,svg,jpg,png}'],
       minify: true,
       stripPrefix: 'dist/'
     })

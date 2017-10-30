@@ -1,7 +1,8 @@
 <template>
   <p
-    class="udi-p"
-    v-text="text"></p>
+    class="udi-p">
+    {{ text }} <slot/>
+  </p>
 </template>
 
 <script>

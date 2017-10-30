@@ -1,16 +1,42 @@
 <template>
-  <div class="author">
-    <p class="author--title">Quem somos</p>
-    <p class="author--subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <div class="author--row">
-      <div class="author--item" v-for="author in $udiData.organization">
-        <div class="author--background">
-          <img class="author--image" :src="author.picture" alt="Autor" />
+  <div
+    class="author">
+    <p
+      class="author--title">
+      Quem somos
+    </p>
+
+    <p
+      class="author--subtitle">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <div
+      class="author--row">
+      <div
+        v-for="(author, index) in $udiData.organization"
+        :key="index"
+        class="author--item">
+        <div
+          class="author--background">
+          <img
+            class="author--image"
+            :src="author.picture"
+            alt="Autor" />
         </div>
-        <p class="author--name">{{author.name}}</p>
-        <p class="author--profession">{{author.profession}}</p>
+
+        <p
+          class="author--name">
+          {{author.name}}
+        </p>
+
+        <p
+          class="author--profession">
+          {{author.profession}}
+        </p>
       </div>
     </div>
+
     <udi-watermark
       :src="googlesSVG"
       right
@@ -19,8 +45,9 @@
 </template>
 
 <script>
-import googlesSVG from 'ASSETS/img/googles.svg'
 import UdiWatermark from '@/Watermark'
+import googlesSVG from 'ASSETS/img/googles.svg'
+
 export default {
   data () {
     return {
