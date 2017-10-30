@@ -45,10 +45,11 @@
     background-color: frontinudi-default-color('background');
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 8px 16px;
+    padding: 8px 5vw;
 
     .udi-container-header,
     .udi-container-footer {
@@ -64,6 +65,13 @@
       text-align: left;
       width: 50%;
       min-width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .udi-footer-container {
+      justify-content: center;
+      align-items: center;
     }
   }
 </style>

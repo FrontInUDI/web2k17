@@ -110,6 +110,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .author--item {
     display: flex;
