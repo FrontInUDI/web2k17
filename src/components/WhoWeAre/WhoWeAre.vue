@@ -3,12 +3,12 @@
     class="author">
     <p
       class="author--title">
-      Quem somos
+      {{ $udiData.whoWeAreContainer.h1.text }}
     </p>
 
     <p
       class="author--subtitle">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      {{ $udiData.whoWeAreContainer.p.text }}
     </p>
 
     <div
@@ -71,8 +71,14 @@ export default {
     display: flex;
     flex-direction: column;
     padding: 30px;
+    position: relative;
     align-items: center;
     justify-content: center;
+    z-index: 10;
+
+    .udi-watermark {
+      z-index: 0;
+    }
   }
   .author--title {
     font-weight: 400;
@@ -118,5 +124,6 @@ export default {
     width: 300px;
     margin-left: 20px;
     align-items: center;
+    z-index: 15;
   }
 </style>

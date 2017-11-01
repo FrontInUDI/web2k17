@@ -14,10 +14,10 @@ export default {
   ],
   talkCards: [
     {
-      title: 'Nome da Talk',
+      title: 'UI/UX',
       color: '#03b3e4',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+      text: 'Webpack - Web performance optimization',
+      author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
     },
     {
       title: 'Nome da Talk',
@@ -66,11 +66,11 @@ export default {
   },
   whoWeAreContainer: {
     h1: { id: 'quem-somos', text: 'Quem somos' },
-    p: { text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' }
+    p: { text: '' }
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p: { text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' }
+    p: { text: '' }
   },
   contactContainer: {
     h1: { id: 'contato', text: 'Quer patrocinar? Dúvidas? Sugestões?' },

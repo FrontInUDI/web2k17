@@ -64,6 +64,10 @@
     grid-gap: 16px;
     justify-items: center;
     padding: 10vh 0;
+
+    .udi-talk-card-footer span {
+      height: 18px;
+    }
   }
 
   @media screen and (max-width: 870px) {
