@@ -42,6 +42,7 @@
         v-for="(link, index) in toolbarLinks"
         :key="index">
         <UdiButton
+          @click="$refs.sidenav.close()"
           v-bind="{
             link: link.link,
             href: link.hasOwnProperty('href') ? link.href : '',

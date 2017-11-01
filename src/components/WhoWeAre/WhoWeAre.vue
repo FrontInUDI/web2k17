@@ -2,6 +2,7 @@
   <div
     class="author">
     <p
+      :id="$udiData.whoWeAreContainer.h1.id"
       class="author--title">
       {{ $udiData.whoWeAreContainer.h1.text }}
     </p>
