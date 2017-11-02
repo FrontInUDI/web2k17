@@ -6,6 +6,7 @@
     <udi-who-we-are/>
     <udi-front-talk-container/>
     <udi-contact-container/>
+    <udi-sponsors-container/>
     <udi-footer-container/>
   </div>
 </template>
@@ -17,6 +18,7 @@
   import UdiFrontTalkContainer from '@/FrontTalkContainer'
   import UdiLearnShareContainer from '@/LearnShareContainer'
   import UdiFooterContainer from '@/FooterContainer'
+  import UdiSponsorsContainer from '@/SponsorsContainer'
   import UdiToolbar from '@/Toolbar'
   import UdiWhoWeAre from '@/WhoWeAre'
 
@@ -34,6 +36,7 @@
       UdiLearnShareContainer,
       UdiWelcomeContainer,
       UdiFooterContainer,
+      UdiSponsorsContainer,
       UdiToolbar,
       UdiWhoWeAre
     }

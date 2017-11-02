@@ -56,6 +56,10 @@ export default {
     { name: 'Lucas Menezes', profession: 'Test Automation na Zup', picture: 'static/img/lucas.jpg' },
     { name: 'Pablo Henrique P. Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' }
   ],
+  sponsors: [
+    { name: 'UFU - Universidade Federal de Uberlândia', site: 'http://www.ufu.br/', picture: 'static/img/ufu_logo.png' },
+    { name: 'FACOM - Faculdade de Computação UFU', site: 'http://www.facom.ufu.br/', picture: 'static/img/facom.png' }
+  ],
   welcomeContainer: {
     h1: { id: 'welcome', text: 'FrontInUDI 2017' },
     h2: { text: 'Chegamos na melhor cidade mineira' }
@@ -70,6 +74,10 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
+    p: { text: 'Dia 23/11/2017 às 19h' }
+  },
+  sponsorsContainer: {
+    h1: { id: 'sponsors', text: 'Patrocinadores' },
     p: { text: 'Dia 23/11/2017 às 19h' }
   },
   contactContainer: {
