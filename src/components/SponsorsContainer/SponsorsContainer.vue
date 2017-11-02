@@ -7,11 +7,13 @@
       :text="$udiData.sponsorsContainer.h1.text"/>
     <div class="udi-sponsors-content">
       <udi-sponsor
-      v-for="(sponsor, index) in $udiData.sponsors"
-      :key="index"
-      :img="sponsor.picture"
-      :description="sponsor.name"
-      :href="sponsor.site"/>
+        v-for="(sponsor, index) in $udiData.sponsors"
+        :large="sponsor.large"
+        :small="sponsor.small"
+        :key="index"
+        :img="sponsor.picture"
+        :description="sponsor.name"
+        :href="sponsor.site"/>
     </div>
     <udi-watermark
       :src="favoritesSVG"
