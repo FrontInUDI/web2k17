@@ -94,6 +94,10 @@
         padding: 16px 8px;
         border-bottom: 1px solid rgba(gray, .1);
       }
+
+      .udi-link {
+        font-weight: 300;
+      }
     }
   }
 

@@ -83,7 +83,7 @@
   .udi-toolbar {
     display: grid;
     grid-template: auto / 2fr 4fr;
-    grid-gap: 16px;
+    grid-gap: 0 16px;
     padding: 16px 24px;
 
     .udi-link {

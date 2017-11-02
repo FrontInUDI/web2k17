@@ -56,6 +56,8 @@
     cursor: pointer;
     padding: 8px;
     outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 
     &.small {
       padding: 5px 16px;
@@ -71,5 +73,7 @@
     cursor: pointer;
     font-weight: 200;
     text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
   }
 </style>
