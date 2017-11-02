@@ -7,6 +7,7 @@
         :id="$udiData.frontTalkContainer.h1.id"
         :text="$udiData.frontTalkContainer.h1.text"/>
       <udi-p
+        highlight
         :text="$udiData.frontTalkContainer.p.text"/>
       <udi-watermark
         :src="micSVG"

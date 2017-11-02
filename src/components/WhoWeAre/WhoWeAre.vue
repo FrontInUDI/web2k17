@@ -123,7 +123,6 @@ export default {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin-left: 20px;
     align-items: center;
     z-index: 15;
   }

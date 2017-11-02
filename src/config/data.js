@@ -54,7 +54,7 @@ export default {
     { name: 'Eduardo Gonçalves', profession: 'Front-End Engineer na Zup', picture: 'static/img/eduardo.jpg' },
     { name: 'Fernando Garcia', profession: 'UX/UI Design e Front-End Developer na Martins', picture: 'static/img/fernando.jpg' },
     { name: 'Lucas Menezes', profession: 'Test Automation na Zup', picture: 'static/img/lucas.jpg' },
-    { name: 'Pablo Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' }
+    { name: 'Pablo Henrique P. Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' }
   ],
   welcomeContainer: {
     h1: { id: 'welcome', text: 'FrontInUDI 2017' },
@@ -70,7 +70,7 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p: { text: '' }
+    p: { text: 'Dia 23/11/2017 às 19h' }
   },
   contactContainer: {
     h1: { id: 'contato', text: 'Quer patrocinar? Dúvidas? Sugestões?' },
