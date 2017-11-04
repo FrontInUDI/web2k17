@@ -66,7 +66,7 @@ export default {
   },
   learnShareContainer: {
     h1: { id: 'objetivo', text: 'Aprender, compartilhar e se divertir' },
-    p: { text: 'FrontInUDI foi criado com o propósito de reunir interessados em desenvolvimento Frontend e outras tecnologias relacionadas, desde entusiastas às mais experientes para realizarmos discussões, palestras e workshops com o intuito de compartilhar conhecimento e experiências.' }
+    p: { text: 'FrontInUDI foi criado com o propósito de reunir interessados em desenvolvimento Frontend e outras tecnologias relacionadas, desde entusiastas aos mais experientes para realizarmos discussões, palestras e workshops com o intuito de compartilhar conhecimento e experiências.' }
   },
   whoWeAreContainer: {
     h1: { id: 'quem-somos', text: 'Quem somos' },
