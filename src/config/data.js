@@ -14,22 +14,22 @@ export default {
   ],
   talkCards: [
     {
-      title: 'UI/UX',
+      title: 'Welcome',
       color: '#03b3e4',
-      text: 'Webpack - Web performance optimization',
-      author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
+      text: 'Hello World, FrontInUDI!',
+      author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
     },
     {
-      title: 'Nome da Talk',
+      title: 'UX',
       color: '#02cabe',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+      text: 'Design System',
+      author: { name: 'Fernando Garcia', contact: 'https://www.linkedin.com/in/garciafsouza/' }
     },
     {
-      title: 'Nome da Talk',
+      title: 'UI',
       color: '#a660df',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+      text: 'Web performance optimization com Webpack',
+      author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
     },
     {
       title: 'Nome da Talk',
@@ -74,11 +74,11 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p: { text: 'Dia 23/11/2017 às 19h' }
+    p: { text: 'Dia 23/11/2017 das 9AM até 12PM' }
   },
   sponsorsContainer: {
     h1: { id: 'sponsors', text: 'Patrocinadores' },
-    p: { text: 'Dia 23/11/2017 às 19h' }
+    p: { text: 'Dia 25/11/2017 às 19h' }
   },
   contactContainer: {
     h1: { id: 'contato', text: 'Quer patrocinar? Dúvidas? Sugestões?' },
