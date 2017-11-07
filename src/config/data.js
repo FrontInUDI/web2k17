@@ -74,11 +74,11 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p: { text: 'Dia 23/11/2017 das 9AM até 12PM' }
+    p: { text: 'Dia 25/11/2017 das 9AM até 12PM' }
   },
   sponsorsContainer: {
     h1: { id: 'sponsors', text: 'Patrocinadores' },
-    p: { text: 'Dia 25/11/2017 às 19h' }
+    p: { text: '' }
   },
   contactContainer: {
     h1: { id: 'contato', text: 'Quer patrocinar? Dúvidas? Sugestões?' },
