@@ -31,24 +31,24 @@ export default {
       text: 'Web performance optimization com Webpack',
       author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
     },
-    {
-      title: 'Nome da Talk',
-      color: '#a6a6a6',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    },
-    {
-      title: 'Nome da Talk',
-      color: '#fcc129',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    },
-    {
-      title: 'Nome da Talk',
-      color: '#ed3e7b',
-      text: 'React: o framework onipresente - Hipsters',
-      author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    }
+    // {
+    //   title: 'Nome da Talk',
+    //   color: '#a6a6a6',
+    //   text: 'React: o framework onipresente - Hipsters',
+    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+    // },
+    // {
+    //   title: 'Nome da Talk',
+    //   color: '#fcc129',
+    //   text: 'React: o framework onipresente - Hipsters',
+    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+    // },
+    // {
+    //   title: 'Nome da Talk',
+    //   color: '#ed3e7b',
+    //   text: 'React: o framework onipresente - Hipsters',
+    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
+    // }
   ],
   organization: [
     { name: 'Eduardo Gonçalves', profession: 'Front-End Engineer na Zup', picture: 'static/img/eduardo.jpg' },
