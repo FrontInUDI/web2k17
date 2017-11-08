@@ -30,7 +30,7 @@ export default {
       color: '#a660df',
       text: 'Web performance optimization com Webpack',
       author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
-    },
+    }
     // {
     //   title: 'Nome da Talk',
     //   color: '#a6a6a6',
