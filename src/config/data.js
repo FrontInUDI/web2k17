@@ -10,7 +10,7 @@ export default {
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: true, href: 'https://www.meetup.com/FrontInUDI/?_cookie-check=UVXsWAPRU3l4zVXk', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: true, href: 'https://www.meetup.com/FrontInUDI/events/244897588', target: '_blank', small: true }
   ],
   talkCards: [
     {

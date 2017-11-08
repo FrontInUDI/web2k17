@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <udi-toolbar/>
+    <udi-toolbar
+      fixed/>
     <udi-welcome-container/>
     <udi-learn-share-container/>
     <udi-who-we-are/>

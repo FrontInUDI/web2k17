@@ -24,6 +24,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    height: 100vh;
     z-index: 10;
     pointer-events: none;
     background-color: rgba(0,0,0,.54);
