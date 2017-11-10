@@ -1,9 +1,9 @@
 <template>
-  <h1
+  <h2
     class="udi-h2"
     v-bind="{ id }">
     {{ text }}
-  </h1>
+  </h2>
 </template>
 
 <script>

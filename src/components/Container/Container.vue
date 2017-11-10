@@ -29,18 +29,47 @@
 </script>
 
 <style lang="scss">
+  @import '../../assets/scss/variables.scss';
   .udi-container {
-    height: 40vh;
-    padding: 10vh 5vw;
+    height: 60vh;
+    padding: 10vh $frontinudi-default-lr-padding;
     position: relative;
 
     &.headlight {
-      height: 30vh;
-      padding: 10vh 0vw;
-
       .udi-container-header {
         text-align: center;
+        padding: 0 30vw;
       }
+    }
+  }
+
+  @media screen and (max-width: 1412px) {
+    .udi-container.headlight .udi-container-header {
+      padding: 0 25vw;
+    }
+  }
+
+  @media screen and (max-width: 1040px) {
+    .udi-container.headlight .udi-container-header {
+      padding: 0 20vw;
+    }
+  }
+
+  @media screen and (max-width: 824px) {
+    .udi-container.headlight .udi-container-header {
+      padding: 0 15vw;
+    }
+  }
+
+  @media screen and (max-width: 682px) {
+    .udi-container.headlight .udi-container-header {
+      padding: 0 10vw;
+    }
+  }
+
+  @media screen and (max-width: 582px) {
+    .udi-container.headlight .udi-container-header {
+      padding: 0 5vw;
     }
   }
 

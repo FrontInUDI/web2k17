@@ -47,6 +47,15 @@
   @import '../../assets/scss/variables.scss';
   @import '../../assets/scss/functions.scss';
 
+  .udi-link {
+    color: rgba(3, 179, 228, 1);
+    cursor: pointer;
+    font-weight: 200;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+  }
+
   .udi-button {
     background-color: frontinudi-default-color();
     border: 1px solid rgba(255, 255, 255, .36);
@@ -66,14 +75,5 @@
     &.large {
       padding: 10px 16px;
     }
-  }
-
-  .udi-link {
-    color: rgba(3, 179, 228, 1);
-    cursor: pointer;
-    font-weight: 200;
-    text-decoration: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
   }
 </style>

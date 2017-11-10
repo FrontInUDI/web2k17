@@ -63,10 +63,10 @@ export default {
 
 
 <style lang="scss">
-@import '../../assets/scss/functions.scss';
+  @import '../../assets/scss/functions.scss';
+  @import '../../assets/scss/variables.scss';
 
   .author {
-    height: auto;
     background-image: frontinudi-default-gradient();
     color: #fff;
     display: flex;
@@ -76,9 +76,14 @@ export default {
     align-items: center;
     justify-content: center;
     z-index: 10;
+    min-height: 80vh;
+    height: auto;
+    overflow: hidden;
+    padding: 10vh $frontinudi-default-lr-padding;
 
-    .udi-watermark {
+    .udi-water-mark {
       z-index: 0;
+      transform: rotate(45deg);
     }
   }
   .author--title {

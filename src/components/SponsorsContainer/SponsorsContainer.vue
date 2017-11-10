@@ -1,10 +1,12 @@
 <template>
   <udi-container
+    headlight
     class="udi-sponsors-container">
     <udi-h1
       slot="header"
       :id="$udiData.sponsorsContainer.h1.id"
       :text="$udiData.sponsorsContainer.h1.text"/>
+
     <div class="udi-sponsors-content">
       <udi-sponsor
         v-for="(sponsor, index) in $udiData.sponsors"
@@ -15,9 +17,10 @@
         :description="sponsor.name"
         :href="sponsor.site"/>
     </div>
+
     <udi-watermark
       :src="favoritesSVG"
-      left
+      center
       imgHeight="90%"
       alt="Watermark mic"/>
   </udi-container>

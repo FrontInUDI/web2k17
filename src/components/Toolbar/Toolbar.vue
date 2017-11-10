@@ -11,9 +11,10 @@
           v-for="(link, index) in toolbarLinks"
           :key="index"
           v-bind="{
-            link: link.link,
+            link: true,
             href: link.hasOwnProperty('href') ? link.href : '',
-            small: link.small
+            small: link.small,
+            class: !link.link ? 'udi-button' : ''
           }">
           {{ link.text }}
         </UdiButton>
@@ -92,20 +93,25 @@
     },
     watch: {
       fixed () {
-        if (this.fixed) {
-          this.marginTopBrotherElement()
-        }
+        this.marginTopBrotherElement()
       }
     },
     methods: {
       marginTopBrotherElement () {
-        this.$parent.$children[1].$el.style.marginTop = `${this.$el.offsetHeight}px`
+        if (this.fixed) {
+          this.$parent.$children[1].$el.style.marginTop = `${4 + this.$el.offsetHeight}px`
+        }
       }
+    },
+    mounted () {
+      this.marginTopBrotherElement()
     }
   }
 </script>
 
 <style lang="scss">
+  @import '../../assets/scss/variables.scss';
+
   .udi-toolbar-wrapper {
     position: fixed;
     top: 0;
@@ -118,7 +124,8 @@
     display: grid;
     grid-template: auto / 2fr 4fr;
     grid-gap: 0 16px;
-    padding: 16px 24px;
+    // padding: 16px 24px;
+    padding: 16px $frontinudi-default-lr-padding;
     background: #fff;
 
     .udi-link {
@@ -139,7 +146,7 @@
     align-items: center;
   }
 
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 890px) {
     .udi-toolbar-links {
       display: none;
     }

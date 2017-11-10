@@ -1,17 +1,24 @@
 <template>
   <udi-container
+    headlight
     class="udi-front-talk-container">
     <div
       slot="header">
       <udi-h1
         :id="$udiData.frontTalkContainer.h1.id"
         :text="$udiData.frontTalkContainer.h1.text"/>
+
       <udi-p
-        highlight
-        :text="$udiData.frontTalkContainer.p.text"/>
+        :id="$udiData.frontTalkContainer.p0.id"
+        :text="$udiData.frontTalkContainer.p0.text"/>
+
+      <udi-button>
+        {{ $udiData.frontTalkContainer.p.text }}
+      </udi-button>
+
       <udi-watermark
         :src="micSVG"
-        left
+        center
         imgHeight="120%"
         alt="Watermark mic"/>
     </div>
@@ -30,6 +37,7 @@
 </template>
 
 <script>
+  import UdiButton from '@/Button'
   import UdiContainer from '@/Container'
   import UdiH1 from '@/H1'
   import UdiP from '@/P'
@@ -45,6 +53,7 @@
       }
     },
     components: {
+      UdiButton,
       UdiContainer,
       UdiH1,
       UdiP,
@@ -57,6 +66,22 @@
 <style lang="scss">
   .udi-front-talk-container {
     height: auto;
+
+    &.headlight {
+      .udi-container-header {
+        padding: 10vh 25vw;
+      }
+    }
+
+    .udi-button {
+      font-size: 1em;
+    }
+
+    .udi-p,
+    .udi-h1 {
+      margin-bottom: 16px;
+      text-align: center;
+    }
   }
 
   .udi-front-talk-body {

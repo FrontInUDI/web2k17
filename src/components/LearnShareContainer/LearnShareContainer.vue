@@ -1,8 +1,9 @@
 <template>
   <udi-container
-    class="udi-learn-share-container">
+    class="udi-learn-share-container"
+    headlight>
     <div slot="header">
-      <udi-h1
+      <udi-h3
         :id="$udiData.learnShareContainer.h1.id"
         :text="$udiData.learnShareContainer.h1.text"/>
       <udi-p
@@ -12,7 +13,7 @@
 
     <udi-watermark
       :src="flaskSVG"
-      left
+      center
       alt="Watermark flask"/>
   </udi-container>
 </template>
@@ -21,6 +22,7 @@
   import UdiContainer from '@/Container'
   import UdiH1 from '@/H1'
   import UdiH2 from '@/H2'
+  import UdiH3 from '@/H3'
   import UdiP from '@/P'
   import UdiWatermark from '@/Watermark'
   import flaskSVG from 'ASSETS/img/flask.svg'
@@ -36,6 +38,7 @@
       UdiContainer,
       UdiH1,
       UdiH2,
+      UdiH3,
       UdiP,
       UdiWatermark
     }
@@ -54,15 +57,22 @@
     height: 80vh;
 
     .udi-h1,
-    .udi-h2 {
+    .udi-h2,
+    .udi-h3 {
       color: frontinudi-default-color('primary');
     }
 
-    .udi-h1 {
+    .udi-p {
+      font-weight: 200;
+      text-align: center;
+    }
+
+    .udi-h3 {
       font-weight: 600;
-      text-align: left;
-      width: 50%;
-      min-width: 220px;
+      margin-bottom: 16px;
+      // text-align: left;
+      // width: 50%;
+      // min-width: 220px;
     }
   }
 </style>

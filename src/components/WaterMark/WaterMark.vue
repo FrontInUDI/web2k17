@@ -18,6 +18,7 @@
       src: String,
       alt: [String, Number],
       right: Boolean,
+      center: Boolean,
       left: Boolean,
       imgHeight: String
     },
@@ -26,7 +27,8 @@
         return {
           'udi-water-mark': true,
           left: this.left,
-          right: !this.left
+          right: this.right,
+          center: this.center
         }
       }
     }
@@ -52,6 +54,10 @@
 
     &.right {
       justify-content: flex-end;
+    }
+
+    &.center {
+      justify-content: center;
     }
   }
 </style>

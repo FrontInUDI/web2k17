@@ -44,5 +44,11 @@
       color: frontinudi-default-color('background');
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .udi-p {
+      font-size: 1em;
+    }
+  }
 </style>
 

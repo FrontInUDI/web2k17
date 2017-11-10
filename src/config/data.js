@@ -10,7 +10,7 @@ export default {
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: true, href: 'https://www.meetup.com/FrontInUDI/events/244897588', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/244897588', target: '_blank', small: true }
   ],
   talkCards: [
     {
@@ -65,7 +65,7 @@ export default {
     h2: { text: 'Chegamos na melhor cidade mineira' }
   },
   learnShareContainer: {
-    h1: { id: 'objetivo', text: 'Aprender, compartilhar e se divertir' },
+    h1: { id: 'objetivo', text: 'Aprender, compartilhar e, claro, se divertir' },
     p: { text: 'FrontInUDI foi criado com o propósito de reunir interessados em desenvolvimento Frontend e outras tecnologias relacionadas, desde entusiastas aos mais experientes para realizarmos discussões, palestras e workshops com o intuito de compartilhar conhecimento e experiências.' }
   },
   whoWeAreContainer: {
@@ -74,10 +74,11 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p: { text: 'Dia 25/11/2017 das 9AM até 12PM' }
+    p0: { id: 'front-talk text', text: 'Como primeiro meetup em Uberlândia, gostaríamos de introduzir o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento. Neste primeiro meetup teremos três palestras, sendo uma de apresentação do FrontInUDI e quais são nossos planos com essa comunidade. As outras duas são relacionadas com UX e UI, para começarmos com o pé direito nessa incrivel jornada de conhecimento e comunidade.' },
+    p: { text: 'Dia 25/11/2017 das 9AM às 12PM' }
   },
   sponsorsContainer: {
-    h1: { id: 'sponsors', text: 'Patrocinadores' },
+    h1: { id: 'sponsors', text: 'Apoiadores' },
     p: { text: '' }
   },
   contactContainer: {
