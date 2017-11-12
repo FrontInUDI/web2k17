@@ -130,7 +130,7 @@
     // padding: 16px 24px;
     padding: 16px $frontinudi-default-lr-padding;
     background: #fff;
-    box-shadow: 0 -7px 20px rgba(0, 0, 0, 1);
+    // box-shadow: 0 -7px 20px rgba(0, 0, 0, 1);
 
     .udi-link {
       img {
