@@ -97,12 +97,20 @@
   }
 
   @media screen and (max-width: 870px) {
+    .udi-front-talk-container.headlight .udi-container-header {
+      padding: 10vh 15vw;
+    }
+
     .udi-front-talk-body {
       grid-template: auto / 1fr 1fr;
     }
   }
 
   @media screen and (max-width: 575px) {
+    .udi-front-talk-container.headlight .udi-container-header {
+      padding: 10vh 5vw;
+    }
+
     .udi-front-talk-body {
       grid-template: auto / 1fr;
     }

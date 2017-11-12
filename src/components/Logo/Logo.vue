@@ -2,7 +2,7 @@
   <div>
     <img
       class="udi-logo"
-      src="../../assets/img/logo-blue.svg"
+      :src="img"
       alt="Logo"/>
   </div>
 </template>
@@ -11,10 +11,7 @@
   export default {
     name: 'UDILogo',
     props: {
-      img: {
-        type: String,
-        default: ''
-      }
+      img: String
     }
   }
 </script>

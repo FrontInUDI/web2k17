@@ -13,7 +13,6 @@
 </template>
 
 <script>
-  import UdiButton from '@/Button'
   import UdiContactContainer from '@/ContactContainer'
   import UdiWelcomeContainer from '@/WelcomeContainer'
   import UdiFrontTalkContainer from '@/FrontTalkContainer'
@@ -31,7 +30,6 @@
       }
     },
     components: {
-      UdiButton,
       UdiContactContainer,
       UdiFrontTalkContainer,
       UdiLearnShareContainer,
@@ -85,6 +83,18 @@
       src: url('./assets/font/montserrat-bold-webfont.woff2') format('woff2');
       font-weight: 800;
       font-style: normal;
+  }
+
+  .slide-fade-enter-active {
+    transition: all 1s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
   }
 </style>
 

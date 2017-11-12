@@ -2,13 +2,13 @@
   <udi-container
     class="udi-footer-container">
     <udi-logo
-      :img="logoSVG"/>
+      :img="whiteLogoSVG"/>
 
     <udi-p
       :text="$udiData.footerContainer.p.text">
       <img
-        width="14px"
-        :src="likeSVG"
+        width="15px"
+        :src="rockSVG"
         alt="With love.">
     </udi-p>
   </udi-container>
@@ -18,15 +18,15 @@
   import UdiContainer from '@/Container'
   import UdiLogo from '@/Logo'
   import UdiP from '@/P'
-  import logoSVG from '../../assets/img/logo-blue.svg'
-  import likeSVG from '../../assets/img/like.svg'
+  import whiteLogoSVG from '../../assets/img/logo-white.svg'
+  import rockSVG from '../../assets/img/rock.svg'
 
   export default {
     name: 'UdiLearnShareContainer',
     data () {
       return {
-        logoSVG,
-        likeSVG
+        whiteLogoSVG,
+        rockSVG
       }
     },
     components: {
@@ -42,7 +42,7 @@
 
   .udi-footer-container {
     align-items: center;
-    background-color: frontinudi-default-color('background');
+    background-color: frontinudi-default-color('primary');
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -57,7 +57,14 @@
     }
 
     .udi-p {
-      color: frontinudi-default-color('primary');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: frontinudi-default-color('background');
+
+      img {
+        margin-left: 8px;
+      }
     }
 
     .udi-h1 {

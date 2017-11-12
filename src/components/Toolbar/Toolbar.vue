@@ -3,7 +3,8 @@
     :class="classes">
     <div
       class="udi-toolbar">
-      <UdiLogo/>
+      <udi-logo
+        :img="logoSVG"/>
 
       <div
         class="udi-toolbar-links">
@@ -64,6 +65,7 @@
   import UdiButton from '@/Button'
   import UdiLogo from '@/Logo'
   import UdiSidenav from '@/Sidenav'
+  import logoSVG from '../../assets/img/logo-blue.svg'
   import closeSVG from '../../assets/img/close.svg'
   import menuSVG from '../../assets/img/menu.svg'
 
@@ -75,6 +77,7 @@
     data () {
       return {
         toolbarLinks: this.$udiData.toolbarLinks,
+        logoSVG,
         closeSVG,
         menuSVG
       }

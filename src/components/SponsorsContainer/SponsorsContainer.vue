@@ -19,7 +19,7 @@
     </div>
 
     <udi-watermark
-      :src="favoritesSVG"
+      :src="supportersSVG"
       center
       imgHeight="90%"
       alt="Watermark mic"/>
@@ -31,13 +31,13 @@
   import UdiH1 from '@/H1'
   import UdiSponsor from '@/Sponsor'
   import UdiWatermark from '@/Watermark'
-  import favoritesSVG from 'ASSETS/img/favorites.svg'
+  import supportersSVG from 'ASSETS/img/supporters.svg'
 
   export default {
     name: 'UDISponsorsContainer',
     data () {
       return {
-        favoritesSVG
+        supportersSVG
       }
     },
     components: {
