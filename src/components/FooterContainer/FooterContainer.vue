@@ -4,17 +4,27 @@
     <udi-logo
       :img="whiteLogoSVG"/>
 
-    <udi-p
-      :text="$udiData.footerContainer.p.text">
-      <img
-        width="15px"
-        :src="rockSVG"
-        alt="With love.">
-    </udi-p>
+    <div>
+      <udi-button
+        href="http://pt-br.confcodeofconduct.com/"
+        link
+        target="_blank">
+        Code of Conduct
+      </udi-button>
+      <udi-p
+        :text="$udiData.footerContainer.p.text">
+        <img
+          width="15px"
+          :src="rockSVG"
+          alt="With love.">
+      </udi-p>
+    </div>
+
   </udi-container>
 </template>
 
 <script>
+  import UdiButton from '@/Button'
   import UdiContainer from '@/Container'
   import UdiLogo from '@/Logo'
   import UdiP from '@/P'
@@ -30,6 +40,7 @@
       }
     },
     components: {
+      UdiButton,
       UdiContainer,
       UdiLogo,
       UdiP
@@ -48,7 +59,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 60px;
     padding: 8px 5vw;
 
     .udi-container-header,
@@ -56,11 +67,21 @@
       display: none;
     }
 
+    .udi-p,
+    .udi-button,
+    .udi-link {
+      color: frontinudi-default-color('background');
+    }
+
+    .udi-button,
+    .udi-link {
+      font-size: 0.8em;
+    }
+
     .udi-p {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: frontinudi-default-color('background');
 
       img {
         margin-left: 8px;
@@ -79,6 +100,7 @@
     .udi-footer-container {
       justify-content: center;
       align-items: center;
+      text-align: center;
     }
   }
 </style>
