@@ -49,9 +49,10 @@
           <UdiButton
             @click="$refs.sidenav.close()"
             v-bind="{
-              link: link.link,
+              link: true,
               href: link.hasOwnProperty('href') ? link.href : '',
-              small: link.small
+              small: link.small,
+              class: !link.link ? 'udi-button' : ''
             }">
             {{ link.text }}
           </UdiButton>
