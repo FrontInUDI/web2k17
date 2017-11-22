@@ -97,9 +97,21 @@ export default {
   }
 
   .whoweare-author-row {
-    display: flex;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .whoweare-author-row {
+      grid-template: 1fr 1fr / 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .whoweare-author-row {
+      grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    }
   }
 </style>
