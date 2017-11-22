@@ -54,6 +54,8 @@
       }
     },
     mounted () {
+      // const t = require(`../../../${this.picture}`) // eslint-disable-line
+      // console.log(t)
       // this.calculateFadeInPosition(document.querySelector('.udi-author').getBoundingClientRect())
       // window.addEventListener('scroll', this.handleScroll)
     }

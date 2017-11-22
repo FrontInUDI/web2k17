@@ -46,7 +46,9 @@
 
   .udi-welcome-container {
     align-items: center;
-    background-image: url('../../../static/img/background.png');
+    background-image: url('../../../static/img/background.png?size=1440');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
 
@@ -74,5 +76,42 @@
       opacity: .8;
     }
   }
+
+  @media screen and (max-width: 1366px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=1366');
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=1200');
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=1024');
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=920');
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=600');
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .udi-welcome-container {
+      background-image: url('../../../static/img/background.png?size=600');
+    }
+  }
+
 </style>
 
