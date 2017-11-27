@@ -26,29 +26,29 @@ export default {
       author: { name: 'João Paulo Ávila', contact: 'https://www.linkedin.com/in/jo%C3%A3o-paulo-peixoto-%C3%A1vila-a6173871/' }
     },
     {
-      title: '...',
+      title: 'undefined...',
       color: '#a660df',
       text: 'To be announced',
       author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
     },
     {
-      title: '...',
+      title: 'undefined...',
       color: '#a6a6a6',
       text: 'To be announced',
       author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+    },
+    {
+      title: 'undefined...',
+      color: '#fcc129',
+      text: 'To be announced',
+      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+    },
+    {
+      title: 'undefined...',
+      color: '#ed3e7b',
+      text: 'To be announced',
+      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
     }
-    // {
-    //   title: 'Nome da Talk',
-    //   color: '#fcc129',
-    //   text: 'React: o framework onipresente - Hipsters',
-    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    // },
-    // {
-    //   title: 'Nome da Talk',
-    //   color: '#ed3e7b',
-    //   text: 'React: o framework onipresente - Hipsters',
-    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    // }
   ],
   organization: [
     { name: 'Eduardo Gonçalves', profession: 'Front-End Engineer na Zup', picture: 'static/img/eduardo.jpg' },
