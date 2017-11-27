@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a button 1`] = `<button class="udi-button"></button>`;
+
+exports[`should render a link 1`] = `<a href="http://localhost" class="udi-link"></a>`;

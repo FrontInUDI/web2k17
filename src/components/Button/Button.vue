@@ -69,7 +69,8 @@
     -webkit-tap-highlight-color: transparent;
 
     &.small {
-      padding: 5px 16px;
+      padding: 4px 16px;
+      padding-bottom: 7px;
     }
 
     &.large {
