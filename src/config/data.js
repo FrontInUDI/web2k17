@@ -10,33 +10,33 @@ export default {
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/244897588', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/245420467', target: '_blank', small: true }
   ],
   talkCards: [
     {
-      title: 'Welcome',
+      title: 'Abertura',
       color: '#03b3e4',
-      text: 'Hello World, FrontInUDI!',
+      text: 'Welcome, FrontInUDI!',
       author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
     },
     {
-      title: 'UX',
+      title: 'UI',
       color: '#02cabe',
-      text: 'Design System',
-      author: { name: 'Fernando Garcia', contact: 'https://www.linkedin.com/in/garciafsouza/' }
+      text: 'Desmistificando o Typescript',
+      author: { name: 'João Paulo Ávila', contact: 'https://www.linkedin.com/in/jo%C3%A3o-paulo-peixoto-%C3%A1vila-a6173871/' }
     },
     {
-      title: 'UI',
+      title: '...',
       color: '#a660df',
-      text: 'Web performance optimization com Webpack',
-      author: { name: 'Pablo Henrique P. Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
+      text: 'To be announced',
+      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+    },
+    {
+      title: '...',
+      color: '#a6a6a6',
+      text: 'To be announced',
+      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
     }
-    // {
-    //   title: 'Nome da Talk',
-    //   color: '#a6a6a6',
-    //   text: 'React: o framework onipresente - Hipsters',
-    //   author: { name: 'Fernando Garcia', contact: 'https://google.com' }
-    // },
     // {
     //   title: 'Nome da Talk',
     //   color: '#fcc129',
@@ -74,8 +74,9 @@ export default {
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
-    p0: { id: 'front-talk text', text: 'Como primeiro meetup em Uberlândia, gostaríamos de introduzir o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento. Neste primeiro meetup teremos três palestras, sendo uma de apresentação do FrontInUDI e quais são nossos planos com essa comunidade. As outras duas são relacionadas com UX e UI, para começarmos com o pé direito nessa incrivel jornada de conhecimento e comunidade.' },
-    p: { text: 'Dia 25/11/2017 das 9AM às 12PM' }
+    // p0: { id: 'front-talk text', text: 'Como primeiro meetup em Uberlândia, gostaríamos de introduzir o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento. Neste primeiro meetup teremos três palestras, sendo uma de apresentação do FrontInUDI e quais são nossos planos com essa comunidade. As outras duas são relacionadas com UX e UI, para começarmos com o pé direito nessa incrivel jornada de conhecimento e comunidade.' },
+    p0: { id: 'front-talk text', text: 'Neste segundo meetup em Uberlândia, gostaríamos de intensificar o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento.' },
+    p: { text: 'Dia 14/12/2017 das 19 às 22' }
   },
   sponsorsContainer: {
     h1: { id: 'sponsors', text: 'Apoiadores' },
