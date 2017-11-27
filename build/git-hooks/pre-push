@@ -1,3 +1,3 @@
 #!/bin/bash
 
-NODE_ENV=test node ./node_modules/jest/bin/jest
+NODE_ENV=test node ./node_modules/jest/bin/jest --env=jsdom
