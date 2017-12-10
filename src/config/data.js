@@ -26,28 +26,28 @@ export default {
       author: { name: 'João Paulo Ávila', contact: 'https://www.linkedin.com/in/jo%C3%A3o-paulo-peixoto-%C3%A1vila-a6173871/' }
     },
     {
-      title: 'undefined...',
+      title: 'UX',
       color: '#a660df',
-      text: 'To be announced',
-      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+      text: 'Microinterações',
+      author: { name: 'Thalys Guimarães', contact: 'https://www.linkedin.com/in/thalys/' }
     },
     {
-      title: 'undefined...',
+      title: 'UI',
       color: '#a6a6a6',
-      text: 'To be announced',
-      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+      text: 'Star Framework',
+      author: { name: 'John Doe', contact: 'https://www.linkedin.com/in/luishfaria/' }
     },
     {
-      title: 'undefined...',
+      title: 'UX/UI',
       color: '#fcc129',
-      text: 'To be announced',
-      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+      text: 'Ninguém sabe CSS',
+      author: { name: 'Lucas Vilaboim', contact: 'https://www.linkedin.com/in/vilaboim/' }
     },
     {
-      title: 'undefined...',
+      title: 'Encerramento',
       color: '#ed3e7b',
-      text: 'To be announced',
-      author: { name: 'John Doe', contact: 'http://www.frontinudi.com.br' }
+      text: 'Thank you! See you soon.',
+      author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
     }
   ],
   organization: [
