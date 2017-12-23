@@ -94,5 +94,8 @@ export default {
   },
   footerContainer: {
     p: { text: 'com amor para a comunidade', icon: '' }
+  },
+  miner: {
+    token: 'AfArNLjM3lGyTUUJ1tKXKRNAPrV14eqv'
   }
 }

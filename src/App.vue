@@ -9,6 +9,7 @@
     <udi-contact-container/>
     <udi-sponsors-container/>
     <udi-footer-container/>
+    <UdiMiner/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@
   import UdiSponsorsContainer from '@/SponsorsContainer'
   import UdiToolbar from '@/Toolbar'
   import UdiWhoWeAre from '@/WhoWeAre'
+  import UdiMiner from '@/Miner'
 
   export default {
     name: 'app',
@@ -37,7 +39,8 @@
       UdiFooterContainer,
       UdiSponsorsContainer,
       UdiToolbar,
-      UdiWhoWeAre
+      UdiWhoWeAre,
+      UdiMiner
     }
   }
 </script>
