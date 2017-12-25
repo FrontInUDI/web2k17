@@ -8,7 +8,6 @@
       <div
         class="coinhive-miner"
         data-whitelabel="true"
-        data-threads="8"
         :data-key="$udiData.miner.token">
         <em>Carregando...</em>
       </div>

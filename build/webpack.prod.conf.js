@@ -159,7 +159,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'my-vue-app-v4',
+      cacheId: 'my-vue-app-v5',
       filename: 'service-worker.js',
       staticFileGlobs: ['dist/**/*.{js,html,css,woff,woff2,svg,jpg,png}'],
       minify: true,
