@@ -35,7 +35,7 @@ export default {
       title: 'UI',
       color: '#a6a6a6',
       text: 'Star Framework',
-      author: { name: 'John Doe', contact: 'https://www.linkedin.com/in/luishfaria/' }
+      author: { name: 'Luis Henrique', contact: 'https://www.linkedin.com/in/luishfaria/' }
     },
     {
       title: 'UX/UI',
