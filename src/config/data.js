@@ -10,7 +10,7 @@ export default {
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/245420467', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/246328872', target: '_blank', small: true }
   ],
   talkCards: [
     {
@@ -22,32 +22,32 @@ export default {
     {
       title: 'UI',
       color: '#02cabe',
-      text: 'Desmistificando o Typescript',
-      author: { name: 'João Paulo Ávila', contact: 'https://www.linkedin.com/in/jo%C3%A3o-paulo-peixoto-%C3%A1vila-a6173871/' }
+      text: 'Como não ser um frontend',
+      author: { name: 'Bruno Carneiro', contact: 'https://www.linkedin.com/in/carneirobruno/' }
     },
     {
       title: 'UX',
       color: '#a660df',
-      text: 'Microinterações',
-      author: { name: 'Thalys Guimarães', contact: 'https://www.linkedin.com/in/thalys/' }
+      text: 'Programação funcional e frontend',
+      author: { name: 'Washington Soares (Xitão)', contact: 'https://www.linkedin.com/in/washington-soares-braga-7a05a340/' }
     },
     {
       title: 'UI',
       color: '#a6a6a6',
-      text: 'Star Framework',
-      author: { name: 'Luis Henrique', contact: 'https://www.linkedin.com/in/luishfaria/' }
-    },
-    {
-      title: 'UX/UI',
-      color: '#fcc129',
-      text: 'Ninguém sabe CSS',
-      author: { name: 'Lucas Vilaboim', contact: 'https://www.linkedin.com/in/vilaboim/' }
+      text: 'Persistência de dados com Redux',
+      author: { name: 'Washington Pires (Wash) ', contact: 'https://www.linkedin.com/in/washingtonpires/' }
     },
     {
       title: 'Encerramento',
-      color: '#ed3e7b',
+      color: '#fcc129',
       text: 'Thank you! See you soon.',
       author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
+    },
+    {
+      title: '',
+      color: '#ed3e7b',
+      text: '',
+      author: { name: '', contact: 'http://frontinudi.com.br' }
     }
   ],
   organization: [
