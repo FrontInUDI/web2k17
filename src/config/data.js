@@ -5,6 +5,10 @@ export default {
     { link: true, href: 'http://www.instagram.com/frontinudi', alt: '#instagram', small: false, icon: '../assets/img/instagram.svg' },
     { link: true, href: 'http://frontinudi.slack.com', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
   ],
+  announcement: {
+    title: { id: 'announcement-title', text: 'FrontInUDI 2k18' },
+    subtitle: { id: 'announcement-subtitle', text: 'em breve' }
+  },
   toolbarLinks: [
     { text: 'Objetivo', link: true, href: '#objetivo', small: false },
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },

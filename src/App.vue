@@ -1,27 +1,12 @@
 <template>
   <div id="app">
-    <udi-toolbar
-      fixed/>
-    <udi-welcome-container/>
-    <udi-learn-share-container/>
-    <udi-who-we-are/>
-    <udi-front-talk-container/>
-    <udi-contact-container/>
-    <udi-sponsors-container/>
-    <udi-footer-container/>
+    <UdiAnnouncement/>
     <UdiMiner/>
   </div>
 </template>
 
 <script>
-  import UdiContactContainer from '@/ContactContainer'
-  import UdiWelcomeContainer from '@/WelcomeContainer'
-  import UdiFrontTalkContainer from '@/FrontTalkContainer'
-  import UdiLearnShareContainer from '@/LearnShareContainer'
-  import UdiFooterContainer from '@/FooterContainer'
-  import UdiSponsorsContainer from '@/SponsorsContainer'
-  import UdiToolbar from '@/Toolbar'
-  import UdiWhoWeAre from '@/WhoWeAre'
+  import UdiAnnouncement from '@/Announcement'
   import UdiMiner from '@/Miner'
 
   export default {
@@ -32,14 +17,7 @@
       }
     },
     components: {
-      UdiContactContainer,
-      UdiFrontTalkContainer,
-      UdiLearnShareContainer,
-      UdiWelcomeContainer,
-      UdiFooterContainer,
-      UdiSponsorsContainer,
-      UdiToolbar,
-      UdiWhoWeAre,
+      UdiAnnouncement,
       UdiMiner
     }
   }
