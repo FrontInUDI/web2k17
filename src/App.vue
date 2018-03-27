@@ -1,6 +1,11 @@
 <template>
   <div id="app">
+    <UdiToolbar
+      fixed/>
     <UdiAnnouncement/>
+    <UdiFrontTalkContainer/>
+    <UdiWhoWeAre/>
+    <UdiFooterContainer/>
     <UdiMiner/>
   </div>
 </template>
@@ -8,6 +13,10 @@
 <script>
   import UdiAnnouncement from '@/Announcement'
   import UdiMiner from '@/Miner'
+  import UdiWhoWeAre from '@/WhoWeAre'
+  import UdiFrontTalkContainer from '@/FrontTalkContainer'
+  import UdiFooterContainer from '@/FooterContainer'
+  import UdiToolbar from '@/Toolbar'
 
   export default {
     name: 'app',
@@ -18,7 +27,11 @@
     },
     components: {
       UdiAnnouncement,
-      UdiMiner
+      UdiMiner,
+      UdiFrontTalkContainer,
+      UdiWhoWeAre,
+      UdiFooterContainer,
+      UdiToolbar
     }
   }
 </script>

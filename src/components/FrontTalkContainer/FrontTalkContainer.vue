@@ -28,6 +28,7 @@
       <udi-talk-card
         v-for="(talk, index) in $udiData.talkCards"
         :key="index"
+        :picture="talk.picture"
         :title="talk.title"
         :color="talk.color"
         :text="talk.text"

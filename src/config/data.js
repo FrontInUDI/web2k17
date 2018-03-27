@@ -7,50 +7,56 @@ export default {
   ],
   announcement: {
     title: { id: 'announcement-title', text: 'FrontInUDI 2k18' },
-    subtitle: { id: 'announcement-subtitle', text: 'em breve' }
+    subtitle: { id: 'announcement-subtitle', text: 'April 24th' }
   },
   toolbarLinks: [
     { text: 'Objetivo', link: true, href: '#objetivo', small: false },
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/246328872', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/248731863', target: '_blank', small: true }
   ],
   talkCards: [
     {
       title: 'Abertura',
-      color: '#03b3e4',
+      color: 'rgb(3, 179, 228, 0.8)',
       text: 'Welcome, FrontInUDI!',
-      author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
+      picture: '/static/img/pablo.jpg',
+      author: { name: 'Pablo Henrique Penha Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
     },
     {
       title: 'UI',
-      color: '#02cabe',
-      text: 'Como não ser um frontend',
-      author: { name: 'Bruno Carneiro', contact: 'https://www.linkedin.com/in/carneirobruno/' }
+      color: 'rgb(2, 202, 190, 0.8)',
+      text: 'A preguiça é a mãe do progresso: Automação de tarefas com JavaScript',
+      picture: '/static/img/speakers/rafael.jpeg',
+      author: { name: 'Rafael Alves', contact: 'https://www.linkedin.com/in/rafael-alves-643a6710b/' }
+    },
+    {
+      title: 'UI',
+      color: 'rgb(166, 96, 223, 0.8)',
+      text: 'CodePush: Salvando vidas',
+      picture: '/static/img/speakers/ramon.jpeg',
+      author: { name: 'Ramon Lopes', contact: 'https://www.linkedin.com/in/ramon-lopes-57524891/' }
+    },
+    {
+      title: 'UI',
+      color: 'rgb(166, 166, 166, 0.8)',
+      text: 'Superpoderes CSS: Introdução a variáveis',
+      picture: '/static/img/speakers/heldson.jpeg',
+      author: { name: 'Heldson Luiz', contact: 'https://www.linkedin.com/in/heldsonluiz' }
     },
     {
       title: 'UX',
-      color: '#a660df',
-      text: 'Programação funcional e frontend',
-      author: { name: 'Washington Soares (Xitão)', contact: 'https://www.linkedin.com/in/washington-soares-braga-7a05a340/' }
-    },
-    {
-      title: 'UI',
-      color: '#a6a6a6',
-      text: 'Persistência de dados com Redux',
-      author: { name: 'Washington Pires (Wash) ', contact: 'https://www.linkedin.com/in/washingtonpires/' }
+      color: 'rgb(252, 193, 41, 0.8)',
+      text: '... em breve ...',
+      picture: '/static/img/speakers/rafaelericson.jpg',
+      author: { name: 'Rafael Ericson', contact: 'https://www.linkedin.com/in/rafael-t-ericson-a1a87296/' }
     },
     {
       title: 'Encerramento',
-      color: '#fcc129',
+      color: 'rgb(237, 62, 123, 0.8)',
       text: 'Thank you! See you soon.',
-      author: { name: 'Eduardo G. Costa', contact: 'https://www.linkedin.com/in/geceduardo/' }
-    },
-    {
-      title: '',
-      color: '#ed3e7b',
-      text: '',
+      picture: '/static/img/frontinudi970x500.png',
       author: { name: '', contact: 'http://frontinudi.com.br' }
     }
   ],
@@ -58,7 +64,8 @@ export default {
     { name: 'Eduardo Gonçalves', profession: 'Front-End Engineer na Zup', picture: 'static/img/eduardo.jpg' },
     { name: 'Fernando Garcia', profession: 'UX/UI Design e Front-End Developer na Martins', picture: 'static/img/fernando.png' },
     { name: 'Lucas Menezes', profession: 'Test Automation na Zup', picture: 'static/img/lucas.jpg' },
-    { name: 'Pablo Henrique P. Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' }
+    { name: 'Pablo Henrique P. Silva', profession: 'Squad leader/Front-End Developer na Softbox', picture: 'static/img/pablo.jpg' },
+    { name: 'João Paulo Ávila', profession: 'Front-End Developer na Zup', picture: 'static/img/joao.jpg' }
   ],
   sponsors: [
     { name: 'UFU - Universidade Federal de Uberlândia', site: 'http://www.ufu.br/', picture: 'static/img/ufu_logo.png', large: false, small: false }

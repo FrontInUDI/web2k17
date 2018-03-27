@@ -97,21 +97,23 @@ export default {
   }
 
   .whoweare-author-row {
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    // display: grid;
+    // grid-template: 1fr 1fr / 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
   }
 
-  @media screen and (max-width: 1200px) {
-    .whoweare-author-row {
-      grid-template: 1fr 1fr / 1fr 1fr;
-    }
-  }
+  // @media screen and (max-width: 1200px) {
+  //   .whoweare-author-row {
+  //     grid-template: 1fr 1fr / 1fr 1fr;
+  //   }
+  // }
 
-  @media screen and (max-width: 580px) {
-    .whoweare-author-row {
-      grid-template: 1fr 1fr 1fr 1fr / 1fr;
-    }
-  }
+  // @media screen and (max-width: 580px) {
+  //   .whoweare-author-row {
+  //     grid-template: 1fr 1fr 1fr 1fr / 1fr;
+  //   }
+  // }
 </style>
