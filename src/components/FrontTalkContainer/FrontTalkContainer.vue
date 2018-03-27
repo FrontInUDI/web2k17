@@ -12,9 +12,9 @@
         :id="$udiData.frontTalkContainer.p0.id"
         :text="$udiData.frontTalkContainer.p0.text"/>
 
-      <udi-button>
+      <!-- <udi-button>
         {{ $udiData.frontTalkContainer.p.text }}
-      </udi-button>
+      </udi-button> -->
 
       <udi-watermark
         :src="micSVG"

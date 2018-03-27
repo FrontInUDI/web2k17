@@ -11,6 +11,9 @@
       <udi-h3
         :id="$udiData.announcement.subtitle.id"
         :text="$udiData.announcement.subtitle.text"/>
+
+      <udi-p
+        text="UBT - Uberlândia Business Tower - Zup"/>
     </div>
 
     <udi-watermark
@@ -24,6 +27,7 @@
 import UdiContainer from '@/Container'
 import UdiH1 from '@/H1'
 import UdiH3 from '@/H3'
+import UdiP from '@/P'
 import UdiWatermark from '@/Watermark'
 import codeSVG from 'ASSETS/img/code.svg'
 
@@ -39,6 +43,7 @@ export default {
     UdiContainer,
     UdiH1,
     UdiH3,
+    UdiP,
     UdiWatermark
   },
   methods: {
@@ -78,6 +83,10 @@ export default {
     .udi-h3,
     .udi-p {
       color: #fff;
+    }
+
+    .udi-p {
+      margin-top: 1em;
     }
 
     .udi-h1 {
