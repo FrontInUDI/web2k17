@@ -5,6 +5,7 @@
     <UdiAnnouncement/>
     <UdiFrontTalkContainer/>
     <UdiWhoWeAre/>
+    <UdiContactContainer/>
     <UdiFooterContainer/>
     <UdiMiner/>
   </div>
@@ -14,6 +15,7 @@
   import UdiAnnouncement from '@/Announcement'
   import UdiMiner from '@/Miner'
   import UdiWhoWeAre from '@/WhoWeAre'
+  import UdiContactContainer from '@/ContactContainer'
   import UdiFrontTalkContainer from '@/FrontTalkContainer'
   import UdiFooterContainer from '@/FooterContainer'
   import UdiToolbar from '@/Toolbar'
@@ -26,6 +28,7 @@
       }
     },
     components: {
+      UdiContactContainer,
       UdiAnnouncement,
       UdiMiner,
       UdiFrontTalkContainer,
