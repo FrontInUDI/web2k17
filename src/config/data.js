@@ -21,42 +21,42 @@ export default {
       title: 'Abertura',
       color: 'rgb(3, 179, 228, 0.8)',
       text: 'Welcome, FrontInUDI!',
-      picture: '/static/img/pablo.jpg',
+      picture: 'static/img/pablo.jpg',
       author: { name: 'Pablo Henrique Penha Silva', contact: 'https://www.linkedin.com/in/pablohpsilva/' }
     },
     {
       title: 'UI',
       color: 'rgb(2, 202, 190, 0.8)',
       text: 'A preguiça é a mãe do progresso: Automação de tarefas com JavaScript',
-      picture: '/static/img/speakers/rafael.jpeg',
+      picture: 'static/img/speakers/rafael.jpeg',
       author: { name: 'Rafael Alves', contact: 'https://www.linkedin.com/in/rafael-alves-643a6710b/' }
     },
     {
       title: 'UI',
       color: 'rgb(166, 96, 223, 0.8)',
       text: 'CodePush: Salvando vidas',
-      picture: '/static/img/speakers/ramon.jpeg',
+      picture: 'static/img/speakers/ramon.jpeg',
       author: { name: 'Ramon Lopes', contact: 'https://www.linkedin.com/in/ramon-lopes-57524891/' }
     },
     {
       title: 'UI',
       color: 'rgb(166, 166, 166, 0.8)',
       text: 'Superpoderes CSS: Introdução a variáveis',
-      picture: '/static/img/speakers/heldson.jpeg',
+      picture: 'static/img/speakers/heldson.jpeg',
       author: { name: 'Heldson Luiz', contact: 'https://www.linkedin.com/in/heldsonluiz' }
     },
     {
       title: 'UX',
       color: 'rgb(252, 193, 41, 0.8)',
       text: '... em breve ...',
-      picture: '/static/img/speakers/rafaelericson.jpg',
+      picture: 'static/img/speakers/rafaelericson.jpg',
       author: { name: 'Rafael Ericson', contact: 'https://www.linkedin.com/in/rafael-t-ericson-a1a87296/' }
     },
     {
       title: 'Encerramento',
       color: 'rgb(237, 62, 123, 0.8)',
       text: 'Thank you! See you soon.',
-      picture: '/static/img/frontinudi970x500.png',
+      picture: 'static/img/frontinudi970x500.png',
       author: { name: '', contact: 'http://frontinudi.com.br' }
     }
   ],
