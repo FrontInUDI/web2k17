@@ -6,15 +6,15 @@ export default {
     { link: true, href: 'http://frontinudi.slack.com', alt: '#slack', small: false, icon: '../assets/img/slack.svg' }
   ],
   announcement: {
-    title: { id: 'announcement-title', text: 'FrontInUDI 2k18' },
-    subtitle: { id: 'announcement-subtitle', text: 'April 24th' }
+    title: { id: 'announcement-title', text: 'VI FrontInUDI' },
+    subtitle: { id: 'announcement-subtitle', text: 'May 24th' }
   },
   toolbarLinks: [
-    // { text: 'Objetivo', link: true, href: '#objetivo', small: false },
+    { text: 'Objetivo', link: true, href: '#objetivo', small: false },
     { text: 'Quem somos', link: true, href: '#quem-somos', small: false },
     { text: 'Front-Talk', link: true, href: '#front-talk', small: false },
     { text: 'Contato', link: true, href: '#contato', small: false },
-    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/248731863', target: '_blank', small: true }
+    { text: 'Inscreva-se', link: false, href: 'https://www.meetup.com/FrontInUDI/events/250337436/', target: '_blank', small: true }
   ],
   talkCards: [
     {
@@ -27,30 +27,23 @@ export default {
     {
       title: 'UI',
       color: 'rgb(2, 202, 190, 0.8)',
-      text: 'A preguiça é a mãe do progresso: Automação de tarefas com JavaScript',
-      picture: 'static/img/speakers/rafael.jpeg',
-      author: { name: 'Rafael Alves', contact: 'https://www.linkedin.com/in/rafael-alves-643a6710b/' }
+      text: 'Usando Jest para testes unitários em JavaScript',
+      picture: 'static/img/speakers/alex.jpeg',
+      author: { name: 'Alex Bruno Cáceres', contact: 'https://www.linkedin.com/in/alexbrunocaceres/' }
     },
     {
       title: 'UI',
       color: 'rgb(166, 96, 223, 0.8)',
-      text: 'CodePush: Salvando vidas',
-      picture: 'static/img/speakers/ramon.jpeg',
-      author: { name: 'Ramon Lopes', contact: 'https://www.linkedin.com/in/ramon-lopes-57524891/' }
-    },
-    {
-      title: 'UI',
-      color: 'rgb(166, 166, 166, 0.8)',
-      text: 'Superpoderes CSS: Introdução a variáveis',
-      picture: 'static/img/speakers/heldson.jpeg',
-      author: { name: 'Heldson Luiz', contact: 'https://www.linkedin.com/in/heldsonluiz' }
+      text: 'Vue.js: Um framework progressivo',
+      picture: 'static/img/speakers/eduardo.jpeg',
+      author: { name: 'Eduardo Costa', contact: 'https://www.linkedin.com/in/eduardocspv/' }
     },
     {
       title: 'UX',
       color: 'rgb(252, 193, 41, 0.8)',
-      text: '... em breve ...',
-      picture: 'static/img/speakers/rafaelericson.jpg',
-      author: { name: 'Rafael Ericson', contact: 'https://www.linkedin.com/in/rafael-t-ericson-a1a87296/' }
+      text: 'Heurística de Nielsen e como usar na prática',
+      picture: 'static/img/speakers/fernando.jpg',
+      author: { name: 'Fernando Garcia', contact: 'https://www.linkedin.com/in/garciafsouza/' }
     },
     {
       title: 'Encerramento',
@@ -68,30 +61,34 @@ export default {
     { name: 'João Paulo Ávila', profession: 'Front-End Developer na Zup', picture: 'static/img/joao.jpg' }
   ],
   sponsors: [
-    { name: 'UFU - Universidade Federal de Uberlândia', site: 'http://www.ufu.br/', picture: 'static/img/ufu_logo.png', large: false, small: false }
-    // { name: 'FACOM - Faculdade de Computação UFU', site: 'http://www.facom.ufu.br/', picture: 'static/img/facom.png' }
+    { name: 'UFU - Universidade Federal de Uberlândia', site: 'http://www.ufu.br/', picture: 'static/img/ufu_logo.png', large: false, small: false },
+    { name: 'Softbox', site: 'http://www.softbox.com.br/', picture: 'static/img/softbox.png' },
+    { name: 'Comunidade Colmeia', site: 'http://colmeia.network/', picture: 'static/img/colmeia.png' },
+    { name: 'Zup', site: 'http://www.zup.com.br/', picture: 'static/img/zup.png' },
+    { name: 'TQI', site: 'http://www.tqi.com.br/', picture: 'static/img/tqi.png' },
+    { name: 'Sankhya', site: 'http://www.sankhya.com.br/', picture: 'static/img/sankhya.png' },
   ],
   welcomeContainer: {
-    h1: { id: 'welcome', text: 'FrontInUDI 2017' },
-    h2: { text: 'Chegamos na melhor cidade mineira' }
+    h1: { id: 'welcome', text: 'FrontInUDI 2018' },
+    h2: { text: 'Aprender, compartilhar e se divertir. Venha aprender o melhor do Front-End com a gente!' }
   },
   learnShareContainer: {
     h1: { id: 'objetivo', text: 'Aprender, compartilhar e, claro, se divertir' },
-    p: { text: 'FrontInUDI foi criado com o propósito de reunir interessados em desenvolvimento Frontend e outras tecnologias relacionadas, desde entusiastas aos mais experientes para realizarmos discussões, palestras e workshops com o intuito de compartilhar conhecimento e experiências.' }
+    p: { text: 'A comunidade FrontInUDI foi criada com o propósito de reunir interessados em desenvolvimento Front-End e outras tecnologias relacionadas, desde entusiastas aos mais experientes para realizarmos discussões, palestras e workshops com o intuito de compartilhar conhecimento e experiências.' }
   },
   whoWeAreContainer: {
     h1: { id: 'quem-somos', text: 'Quem somos' },
-    p: { text: '' }
+    p: { text: 'Somos uma comunidade criada em Uberlândia, baseada nas principais iniciativas FrontIn e outros meetups de capitais e cidades fora do país com o objetivo de propagar informações sobre front-end e integrar os melhores profissionais da área, compartilhando conhecimento e networking.' }
   },
   frontTalkContainer: {
     h1: { id: 'front-talk', text: 'Front-Talk' },
     // p0: { id: 'front-talk text', text: 'Como primeiro meetup em Uberlândia, gostaríamos de introduzir o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento. Neste primeiro meetup teremos três palestras, sendo uma de apresentação do FrontInUDI e quais são nossos planos com essa comunidade. As outras duas são relacionadas com UX e UI, para começarmos com o pé direito nessa incrivel jornada de conhecimento e comunidade.' },
-    p0: { id: 'front-talk text', text: 'Neste segundo meetup em Uberlândia, gostaríamos de intensificar o FrontInUDI para toda comunidade disposta a participar e compartilhar conhecimento.' },
-    p: { text: 'Dia 14/12/2017 das 19 às 22' }
+    p0: { id: 'front-talk text', text: 'Neste sexto meetup em Uberlândia, continuamos a jornada pelas empresas e nosso objetivo de engajar toda a comunidade de Front-End da cidade segue a todo vapor!' },
+    p: { text: 'Dia 24/05/2018 das 19 às 22' }
   },
   sponsorsContainer: {
     h1: { id: 'sponsors', text: 'Apoiadores' },
-    p: { text: '' }
+    p: { text: 'UFU • UberHUB • GDG Uberlândia • Developer Circles Uberlândia • Softbox • Comunidade Colmeia • Zup • TQI • Sankhya' }
   },
   contactContainer: {
     h1: { id: 'contato', text: 'Quer patrocinar? Dúvidas? Sugestões?' },
